@@ -3,6 +3,10 @@ import csv
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 
+PESO_A_SEMANTICO = -0.6166
+PESO_B_SINTATICO = 12.6359
+INTERCEPTO_C = 651.0517
+
 COMMON_WORDS_PATH = "commonWords/google-10000-english.txt"
 BOOKS_DIR = "books/randow"
 OUTPUT_PATH = "comparation/analise.csv"
@@ -56,16 +60,24 @@ def analyze_books(common_set, books_dir):
         common_count = sum(1 for w in clean_words if w in common_set)
         percentage_common = (common_count / total_words) * 100
         
+        percentage_uncommon = 100.0 - percentage_common
+
         # 4. Comprimento Médio da Frase (ASL)
         avg_sentence_length = total_words / total_sentences
 
+        score_estimado = (PESO_A_SEMANTICO * percentage_uncommon) + \
+                         (PESO_B_SINTATICO * avg_sentence_length) + \
+                         INTERCEPTO_C
+        
         results.append({
             "book": filename,
             "total_words": total_words,
             "total_sentences": total_sentences, # NOVO
             "avg_sentence_length": round(avg_sentence_length, 2), # NOVO (ASL)
             "common_count": common_count,
-            "percentage_common": round(percentage_common, 2)
+            "percentage_common": round(percentage_common, 2),
+            "percentage_uncommon": round(percentage_uncommon, 2),
+            "score_estimado_L": int(round(score_estimado, 0))
         })
     
     return results
@@ -79,7 +91,9 @@ def save_results_to_csv(results, output_path):
         "total_sentences", 
         "avg_sentence_length", 
         "common_count", 
-        "percentage_common"
+        "percentage_common",
+        "percentage_uncommon",
+        "score_estimado_L"
     ]
     
     with open(output_path, "w", newline="", encoding="utf-8") as csvfile:
