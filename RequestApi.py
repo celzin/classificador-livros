@@ -69,10 +69,20 @@ def clean_title_for_filename(title: str) -> str:
 def main():
     # Inicializa a lista de livros
     books_downloaded = 0
+    page = 1
+
+    output_dir = "books/random"
+    os.makedirs(output_dir, exist_ok=True)
 
     while books_downloaded < BOOKS_TO_DOWNLOAD:
-        # Solicita livros à API
-        data = gutendex_search_plaintext(page=1, page_size=100)
+        print(f"\nBuscando página {page} da API (Baixados: {books_downloaded}/{BOOKS_TO_DOWNLOAD})...")
+        try:
+            data = gutendex_search_plaintext(page=page, page_size=100) 
+        except requests.RequestException as e:
+            print(f"Erro ao buscar API: {e}. Tentando novamente em 10s.")
+            time.sleep(10)
+            continue
+            
         results = data.get("results", [])
 
         if not results:
@@ -91,21 +101,34 @@ def main():
                 continue
 
             # Baixa o texto do livro
-            raw_text = download_text(text_url)
+            try:
+                raw_text = download_text(text_url)
+            except requests.RequestException as e:
+                print(f"[WARN] Falha ao baixar '{book_obj['title']}': {e}. (Pulando)")
+                continue
 
             # Limpa o texto (remove cabeçalho/rodapé do Gutenberg)
             cleaned_text = strip_gutenberg_boilerplate(raw_text)
+            
+            if not cleaned_text:
+                print(f"[WARN] Livro '{book_obj['title']}' resultou em texto vazio após limpeza. (Pulando)")
+                continue
 
             # Limpa o título do livro para ser usado como nome de arquivo
             title = book_obj.get("title", "Unknown")
-            filename = f"books/randow/{clean_title_for_filename(title)}.txt"
+            filename = f"{clean_title_for_filename(title)}.txt"
+            filepath = os.path.join(output_dir, filename)
 
             # Salva o texto em um arquivo .txt
-            with open(filename, "w", encoding="utf-8") as f:
+            with open(filepath, "w", encoding="utf-8") as f:
                 f.write(cleaned_text)
 
-            print(f"Livro '{title}' salvo como '{filename}'")
+            print(f"({books_downloaded + 1}/{BOOKS_TO_DOWNLOAD}) Livro '{title}' salvo como '{filepath}'")
             books_downloaded += 1
+
+        page += 1
+    
+    print(f"\nDownload concluído. Total de {books_downloaded} livros baixados.")
 
 if __name__ == "__main__":
     main()
