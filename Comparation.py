@@ -8,7 +8,7 @@ PESO_B_SINTATICO = 12.6359
 INTERCEPTO_C = 651.0517
 
 COMMON_WORDS_PATH = "commonWords/google-10000-english.txt"
-BOOKS_DIR = "books/randow"
+BOOKS_DIR = "books/random"
 OUTPUT_PATH = "comparation/analise.csv"
 
 def setup_nltk():
