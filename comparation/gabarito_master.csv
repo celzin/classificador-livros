@@ -1,0 +1,1007 @@
+book_id,title,author,FKGL_Score_Gabarito,ASL_Gabarito,ASW_Gabarito
+1342,Pride and Prejudice,"Austen, Jane",7.9,18.0,1.4041297425390635
+1952,The Yellow Wallpaper,"Gilman, Charlotte Perkins",5.6,15.0,1.267001813087193
+11,Alice's Adventures in Wonderland,"Carroll, Lewis",6.4,17.0,1.2812270264125205
+84,"Frankenstein; Or, The Modern Prometheus","Shelley, Mary Wollstonecraft",9.9,23.0,1.424806894435625
+5200,Metamorphosis,"Kafka, Franz",10.3,27.0,1.3056171101625647
+76,Adventures of Huckleberry Finn,"Twain, Mark",6.0,19.0,1.1926280581555309
+844,The Importance of Being Earnest: A Trivial Comedy for Serious People,"Wilde, Oscar",4.8,10.0,1.4151272727272728
+74,The Adventures of Tom Sawyer,"Twain, Mark",5.6,15.0,1.3078959263235213
+23,"Narrative of the Life of Frederick Douglass, an American Slave","Douglass, Frederick",8.3,19.0,1.3724447717231223
+2542,A Doll's House : a play,"Ibsen, Henrik",3.7,10.0,1.274166855588302
+2701,"Moby Dick; Or, The Whale","Melville, Herman",9.9,23.0,1.3896557739546154
+1661,The Adventures of Sherlock Holmes,"Doyle, Arthur Conan",6.0,16.0,1.3132206569175406
+1400,Great Expectations,"Dickens, Charles",7.2,19.0,1.305668174275209
+4300,Ulysses,"Joyce, James",6.0,13.0,1.3717680820133291
+98,A Tale of Two Cities,"Dickens, Charles",6.8,18.0,1.3474952142541599
+1080,"A Modest Proposal: For preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick","Swift, Jonathan",20.4,50.0,1.4265395894428152
+345,Dracula,"Stoker, Bram",6.8,18.0,1.2628608589048682
+1232,The Prince,"Machiavelli, Niccolo",15.8,38.0,1.447868753154972
+174,The Picture of Dorian Gray,"Wilde, Oscar",4.4,12.0,1.3305106436898124
+2600,War and Peace,"Tolstoy, Leo, graf",7.9,18.0,1.3994710752021655
+2591,Grimms' Fairy Tales,"Grimm, Wilhelm",7.5,23.0,1.1990178721552416
+27827,"The Kama Sutra of Vatsyayana: Translated From the Sanscrit in Seven Parts With Preface, Introduction and Concluding Remarks",Vatsyayana,10.3,24.0,1.3764139733840304
+158,Emma,"Austen, Jane",7.2,16.0,1.3747210030551515
+16328,Beowulf: An Anglo-Saxon Epic Poem,Unknown,7.9,18.0,1.3933410404624278
+135,Les Misérables,"Hugo, Victor",7.2,16.0,1.3982538477465662
+30254,The Romance of Lust: A Classic Victorian erotic novel,Anonymous,10.3,24.0,1.3566245480676085
+1260,Jane Eyre: An Autobiography,"Bronte, Charlotte",8.3,19.0,1.3500873541401548
+1322,Leaves of Grass,"Whitman, Walt",14.2,34.0,1.3569176163206282
+2814,Dubliners,"Joyce, James",5.2,14.0,1.307908684452077
+161,Sense and Sensibility,"Austen, Jane",9.1,21.0,1.408381824621768
+3207,Leviathan,"Hobbes, Thomas",15.8,38.0,1.4342473652627237
+42,The Strange Case of Dr. Jekyll and Mr. Hyde,"Stevenson, Robert Louis",7.9,21.0,1.3276923076923077
+120,Treasure Island,"Stevenson, Robert Louis",6.8,18.0,1.2565749190677782
+768,Wuthering Heights,"Bronte, Emily",6.4,17.0,1.349013583720248
+219,Heart of Darkness,"Conrad, Joseph",7.2,16.0,1.3622289061263257
+1184,"The Count of Monte Cristo, Illustrated","Dumas, Alexandre",7.9,18.0,1.3905520662453352
+829,Gulliver's Travels into Several Remote Nations of the World,"Swift, Jonathan",15.4,37.0,1.3898900213820677
+160,"The Awakening, and Selected Short Stories","Chopin, Kate",6.8,15.0,1.3749433514087919
+16,Peter Pan,"Barrie, J. M. (James Matthew)",5.6,15.0,1.273379429559205
+2500,Siddhartha,"Hesse, Hermann",9.1,21.0,1.3505633766831038
+1497,The Republic,Plato,11.1,26.0,1.4014493289972199
+20203,Autobiography of Benjamin Franklin,"Franklin, Benjamin",11.8,28.0,1.401388468473211
+521,The Life and Adventures of Robinson Crusoe,"Defoe, Daniel",19.3,50.0,1.2694966601276354
+1934,"Songs of Innocence, and Songs of Experience","Blake, William",6.0,19.0,1.214405569439486
+3600,Essays of Michel de Montaigne — Complete,"Montaigne, Michel de",15.8,38.0,1.4189008443192472
+8800,"The Divine Comedy by Dante, Illustrated",Dante Alighieri,9.5,25.0,1.2760139338143817
+46,A Christmas Carol in Prose; Being a Ghost Story of Christmas,"Dickens, Charles",6.0,16.0,1.3114186608738305
+244,A Study in Scarlet,"Doyle, Arthur Conan",7.2,16.0,1.3565556391491689
+236,The Jungle Book,"Kipling, Rudyard",5.2,17.0,1.2491649454116258
+2554,Crime and Punishment,"Dostoyevsky, Fyodor",6.0,13.0,1.366421775794626
+6130,The Iliad,Homer,9.1,24.0,1.332862075154945
+4363,Beyond Good and Evil,"Nietzsche, Friedrich Wilhelm",16.9,35.0,1.5622150928940814
+19942,Candide,Voltaire,8.3,19.0,1.3948288399149793
+22657,"Steam, Its Generation and Use",Babcock & Wilcox Company,8.3,19.0,1.3929340788699236
+3825,Pygmalion,"Shaw, Bernard",4.4,12.0,1.3491148068669527
+100,The Complete Works of William Shakespeare,"Shakespeare, William",5.2,14.0,1.2893185246592285
+730,Oliver Twist,"Dickens, Charles",6.4,17.0,1.3481996125748579
+526,Heart of Darkness,"Conrad, Joseph",7.2,16.0,1.3623160892263881
+10609,English Literature: Its History and Its Significance for the Life of the English-Speaking World,"Long, William J. (William Joseph)",11.1,23.0,1.488686250800199
+375,An Occurrence at Owl Creek Bridge,"Bierce, Ambrose",7.9,18.0,1.3788461538461538
+7370,Second Treatise of Government,"Locke, John",22.0,54.0,1.4228286436871054
+10,The King James Version of the Bible,Unknown,9.1,27.0,1.2073621716415184
+30360,"My Secret Life, Volumes I. to III.: 1888 Edition",Anonymous,6.8,18.0,1.260150430705652
+55,The Wonderful Wizard of Oz,"Baum, L. Frank (Lyman Frank)",5.6,18.0,1.2397165807820552
+34901,On Liberty,"Mill, John Stuart",16.2,36.0,1.540947348193697
+2852,The Hound of the Baskervilles,"Doyle, Arthur Conan",5.6,15.0,1.3192500253712662
+308,Three Men in a Boat,"Jerome, Jerome K. (Jerome Klapka)",7.2,19.0,1.2940698509606752
+12,Through the Looking-Glass,"Carroll, Lewis",5.6,15.0,1.2778333904696606
+35,The Time Machine,"Wells, H. G. (Herbert George)",7.2,16.0,1.388816644993498
+15399,"The Interesting Narrative of the Life of Olaudah Equiano, Or Gustavus Vassa, The African: Written By Himself","Equiano, Olaudah",11.1,29.0,1.344443905926258
+140,The Jungle,"Sinclair, Upton",8.7,23.0,1.318748239649137
+31284,Josefine Mutzenbacher: oder Die Geschichte einer Wienerischen Dirne von ihr selbst erzählt,"Salten, Felix",4.0,11.0,1.2850453929139891
+205,"Walden, and On The Duty Of Civil Disobedience","Thoreau, Henry David",11.8,28.0,1.3620938035037962
+786,Hard Times,"Dickens, Charles",6.0,16.0,1.3346033129904098
+28054,The Brothers Karamazov,"Dostoyevsky, Fyodor",6.4,14.0,1.356021175624047
+815,Democracy in America — Volume 1,"Tocqueville, Alexis de",15.8,32.0,1.5610771274501054
+3090,Complete Original Short Stories of Guy De Maupassant,"Maupassant, Guy de",6.4,17.0,1.3430792085866192
+22577,Practical Grammar and Composition,"Wood, Thomas",5.2,11.0,1.3870235720903936
+766,David Copperfield,"Dickens, Charles",6.4,17.0,1.3208267220557857
+851,Narrative of the Captivity and Restoration of Mrs. Mary Rowlandson,"Rowlandson, Mary White",8.3,25.0,1.2417986537319343
+203,Uncle Tom's Cabin,"Stowe, Harriet Beecher",6.8,18.0,1.3207669855054804
+30601,How to Analyze People on Sight: Through the Science of Human Analysis: The Five Human Types,"Benedict, Ralph Paine",9.9,20.0,1.4856354415274464
+41,The Legend of Sleepy Hollow,"Irving, Washington",14.6,35.0,1.4037907319469463
+103,Around the World in Eighty Days,"Verne, Jules",7.6,17.0,1.4086096797648027
+1399,Anna Karenina,"Tolstoy, Leo, graf",7.6,17.0,1.3648430821485036
+863,The Mysterious Affair at Styles,"Christie, Agatha",5.2,11.0,1.366385930146148
+215,The Call of the Wild,"London, Jack",7.2,19.0,1.3090034882624684
+45,Anne of Green Gables,"Montgomery, L. M. (Lucy Maud)",5.2,14.0,1.3233321302104164
+105,Persuasion,"Austen, Jane",9.9,23.0,1.3805172662216032
+996,Don Quixote,"Cervantes Saavedra, Miguel de",17.7,46.0,1.3221620618973042
+852,Democracy and Education: An Introduction to the Philosophy of Education,"Dewey, John",12.3,23.0,1.6259118043236638
+4217,A Portrait of the Artist as a Young Man,"Joyce, James",6.4,17.0,1.3157112025756843
+779,The Tragical History of Doctor Faustus: From the Quarto of 1604,"Marlowe, Christopher",5.6,15.0,1.3487432082465851
+4517,Ethan Frome,"Wharton, Edith",7.2,19.0,1.29466724286949
+20,Paradise Lost,"Milton, John",19.3,50.0,1.3100042502125107
+1112,The Tragedy of Romeo and Juliet,"Shakespeare, William",3.3,12.0,1.23822984244671
+2130,Utopia,"More, Thomas, Saint",22.4,55.0,1.3612391334345246
+22381,Myths and Legends of Ancient Greece and Rome,"Berens, E. M.",11.5,24.0,1.482590948421805
+28520,Forbidden Fruit: Luscious and exciting story and More forbidden fruit or; Master Percy's progress in and beyond the domestic circle,Anonymous,9.5,25.0,1.2785384855095046
+147,Common Sense,"Paine, Thomas",13.8,30.0,1.4531911022153483
+121,Northanger Abbey,"Austen, Jane",9.1,21.0,1.4012185636505057
+33,The Scarlet Letter,"Hawthorne, Nathaniel",9.9,23.0,1.439257399103139
+61,The Communist Manifesto,"Engels, Friedrich",13.8,24.0,1.6552167074449493
+209,The Turn of the Screw,"James, Henry",6.4,17.0,1.3209399181239498
+7700,Lysistrata,Aristophanes,6.0,13.0,1.397027923693669
+408,The Souls of Black Folk,"Du Bois, W. E. B. (William Edward Burghardt)",10.7,25.0,1.4359845065090135
+2413,Madame Bovary,"Flaubert, Gustave",7.9,18.0,1.3602967882529964
+10676,The Reign of Greed,"Rizal, Jose",9.1,21.0,1.4478709453298015
+4093,Hedda Gabler,"Ibsen, Henrik",3.3,9.0,1.3167235494880545
+108,The Return of Sherlock Holmes,"Doyle, Arthur Conan",5.2,14.0,1.3301925666937218
+1251,Le Morte d'Arthur: Volume 1,"Malory, Thomas, Sir",9.5,28.0,1.2341530313621876
+2147,The Works of Edgar Allan Poe — Volume 1,"Poe, Edgar Allan",10.7,22.0,1.4620153064049883
+21700,Don Juan,"Byron, George Gordon Byron, Baron",14.2,37.0,1.3074479083823762
+36,The War of the Worlds,"Wells, H. G. (Herbert George)",8.3,19.0,1.3822737284741689
+141,Mansfield Park,"Austen, Jane",9.1,21.0,1.3662410680707033
+2781,Just So Stories,"Kipling, Rudyard",6.8,18.0,1.2761021365294423
+145,Middlemarch,"Eliot, George",8.3,19.0,1.3899416365786263
+1998,Thus Spake Zarathustra: A Book for All and None,"Nietzsche, Friedrich Wilhelm",7.2,16.0,1.3909245834235016
+2680,Meditations,"Marcus Aurelius, Emperor of Rome",10.7,25.0,1.370017771360342
+1228,"On the Origin of Species By Means of Natural Selection: Or, the Preservation of Favoured Races in the Struggle for Life","Darwin, Charles",15.0,30.0,1.5524908799629409
+14591,Faust,"Goethe, Johann Wolfgang von",6.0,13.0,1.359513381995134
+3300,An Inquiry into the Nature and Causes of the Wealth of Nations,"Smith, Adam",14.6,32.0,1.4958827007212958
+14838,The Tale of Peter Rabbit,"Potter, Beatrix",6.8,15.0,1.3504451038575667
+35123,"The Ladies' Book of Etiquette, and Manual of Politeness: A Complete Hand Book for the Use of the Lady in Polite Society","Hartley, Florence",9.5,22.0,1.4214467758265545
+4705,A Treatise of Human Nature,"Hume, David",15.8,32.0,1.5519606236072285
+514,Little Women,"Alcott, Louisa May",7.2,19.0,1.3000026875940658
+5827,The Problems of Philosophy,"Russell, Bertrand",12.6,27.0,1.4834253368263473
+1023,Bleak House,"Dickens, Charles",6.0,16.0,1.3308642010235636
+2148,The Works of Edgar Allan Poe — Volume 2,"Poe, Edgar Allan",11.1,23.0,1.4648537150073668
+972,The Devil's Dictionary,"Bierce, Ambrose",9.1,18.0,1.4795648485453365
+132,The Art of War,"Sunzi, active 6th century B.C.",9.1,21.0,1.3809645658341214
+4280,The Critique of Pure Reason,"Kant, Immanuel",16.9,35.0,1.6215100598543304
+25305,"Memoirs Of Fanny Hill: A New and Genuine Edition from the Original Text (London, 1749)","Cleland, John",20.8,51.0,1.3710207796505993
+14264,The Practice and Science of Drawing,"Speed, Harold",10.7,25.0,1.4481251633133003
+2097,The Sign of the Four,"Doyle, Arthur Conan",5.2,14.0,1.3132358411606064
+1727,The Odyssey: Rendered into English prose for the use of those who cannot read the original,Homer,11.1,29.0,1.268073071216617
+62,A Princess of Mars,"Burroughs, Edgar Rice",11.8,28.0,1.3724509323957452
+15250,Myths and Legends of China,"Werner, E. T. C. (Edward Theodore Chalmers)",9.5,22.0,1.401390268123138
+1257,The Three Musketeers,"Dumas, Alexandre",7.2,16.0,1.3722509138176204
+21279,2 B R 0 2 B,"Vonnegut, Kurt",3.7,10.0,1.3440327613104524
+2527,The Sorrows of Young Werther,"Goethe, Johann Wolfgang von",8.3,19.0,1.3716474464579902
+583,The Woman in White,"Collins, Wilkie",7.9,18.0,1.3736576913803744
+600,Notes from the Underground,"Dostoyevsky, Fyodor",7.6,17.0,1.368239093845244
+18251,Latin for Beginners,"D'Ooge, Benjamin L. (Benjamin Leonard)",7.6,11.0,1.567016143098002
+834,The Memoirs of Sherlock Holmes,"Doyle, Arthur Conan",6.0,16.0,1.3220914301372364
+25717,The History Of The Decline And Fall Of The Roman Empire: Table of Contents with links in the HTML file to the two; Project Gutenberg editions (12 volumes),"Gibbon, Edward",6.4,8.0,1.5851436359823863
+7849,The Trial,"Kafka, Franz",6.8,18.0,1.298345364877421
+1524,"Hamlet, Prince of Denmark","Shakespeare, William",5.6,15.0,1.2518515010891182
+10625,A Concise Dictionary of Middle English from A.D. 1150 to 1580,"Skeat, Walter W. (Walter William)",0.5,8.0,1.0985308270855363
+51245,Journal of Small Things,"Mackay, Helen",6.0,16.0,1.2522501281394156
+289,The Wind in the Willows,"Grahame, Kenneth",7.2,19.0,1.3187394051471721
+110,Tess of the d'Urbervilles: A Pure Woman,"Hardy, Thomas",8.3,19.0,1.359739997441715
+2264,Macbeth,"Shakespeare, William",6.0,16.0,1.2867477731913968
+37134,The Elements of Style,"Strunk, William",8.4,16.0,1.52028692956528
+885,An Ideal Husband,"Wilde, Oscar",3.3,9.0,1.3461100139217148
+2000,Don Quijote,"Cervantes Saavedra, Miguel de",18.9,40.0,1.575217784772772
+1837,The Prince and the Pauper,"Twain, Mark",7.9,21.0,1.342488423941005
+4276,North and South,"Gaskell, Elizabeth Cleghorn",6.4,17.0,1.318712122881636
+5131,Childe Harold's Pilgrimage,"Byron, George Gordon Byron, Baron",11.8,31.0,1.3082553601026572
+10800,The Anatomy of Melancholy,"Burton, Robert",11.9,25.0,1.490174546295226
+5000,The Notebooks of Leonardo Da Vinci — Complete,"Leonardo, da Vinci",8.7,23.0,1.3403645551344523
+1597,Andersen's Fairy Tales,"Andersen, H. C. (Hans Christian)",7.2,19.0,1.2842473914142327
+51246,Great Disasters and Horrors in the World's History,"Godbey, Allen Howard",9.1,21.0,1.4430609089972173
+10623,Plays,"Glaspell, Susan",3.7,10.0,1.3182247403210576
+51247,Dead End,"Macfarlane, Wallace",6.0,13.0,1.4355978260869566
+28233,Philosophiae Naturalis Principia Mathematica,"Newton, Isaac, Sir",14.2,22.0,1.7537315416175272
+3296,The Confessions of St. Augustine,"Augustine, Saint, Bishop of Hippo",11.5,30.0,1.312591214766061
+7178,Swann's Way,"Proust, Marcel",15.4,37.0,1.3853470002458816
+45631,"Twelve Years a Slave: Narrative of Solomon Northup, a Citizen of New-York, Kidnapped in Washington City in 1841, and Rescued in 1853, from a Cotton Plantation near the Red River in Louisiana","Northup, Solomon",8.7,20.0,1.4235740609669782
+1754,The Sea-Gull,"Chekhov, Anton Pavlovich",4.4,12.0,1.326956613644771
+51249,Spacemen Die at Home,"Ludwig, Edward W.",4.0,11.0,1.2841349156777013
+1155,The Secret Adversary,"Christie, Agatha",4.8,10.0,1.352002390914525
+20239,The Ten Books on Architecture,Vitruvius Pollio,10.7,25.0,1.3782225923502467
+8789,"The vision of hell.: By Dante Alighieri.; Translated by Rev. Henry Francis Cary, M.A.; and illustrated with the seventy-five designs of Gustave Doré.",Dante Alighieri,8.3,22.0,1.2680831826401446
+20228,Noli Me Tangere,"Rizal, Jose",11.1,20.0,1.6184566368846738
+2067,"Beasts, Men and Gods","Ossendowski, Ferdynand Antoni",8.3,19.0,1.4053110773899848
+696,The Castle of Otranto,"Walpole, Horace",7.6,17.0,1.4004590163934427
+9622,"Lyrical Ballads, With a Few Other Poems (1798)","Wordsworth, William",7.2,22.0,1.2309076499930074
+155,The Moonstone,"Collins, Wilkie",6.8,15.0,1.3504574908347797
+932,The Fall of the House of Usher,"Poe, Edgar Allan",13.4,29.0,1.5031426953567384
+541,The Age of Innocence,"Wharton, Edith",8.3,19.0,1.3916028349192562
+228,The Aeneid,Virgil,9.1,24.0,1.2690506382618987
+12122,"The Monkey's Paw: The Lady of the Barge and Others, Part 2.","Jacobs, W. W. (William Wymark)",4.8,13.0,1.28499873513787
+19033,Alice's Adventures in Wonderland,"Carroll, Lewis",6.0,16.0,1.291996708157597
+113,The Secret Garden,"Burnett, Frances Hodgson",5.2,14.0,1.2509701159678859
+7142,The History of the Peloponnesian War,Thucydides,17.7,40.0,1.456248384311851
+86,A Connecticut Yankee in King Arthur's Court,"Twain, Mark",7.6,20.0,1.3196845168206646
+51244,The Livestock Producer and Armour,Unknown,13.0,25.0,1.5548031496062993
+10007,Carmilla,"Le Fanu, Joseph Sheridan",8.7,20.0,1.3781721542467806
+8525,"Eve's Diary, Complete","Twain, Mark",7.2,19.0,1.2530973451327434
+3800,Ethics,"Spinoza, Benedictus de",11.9,25.0,1.4625012792958756
+1250,Anthem,"Rand, Ayn",4.4,15.0,1.198462905839912
+2641,A Room with a View,"Forster, E. M. (Edward Morgan)",5.2,11.0,1.3546099077718028
+8799,"The Divine Comedy by Dante, Illustrated, Paradise, Complete",Dante Alighieri,11.1,29.0,1.2916610226887912
+12299,"The Mechanical Properties of Wood: Including a Discussion of the Factors Affecting the Mechanical Properties, and Methods of Timber Testing","Record, Samuel J. (Samuel James)",5.6,15.0,1.3066999939035542
+6124,"Pamela, or Virtue Rewarded","Richardson, Samuel",8.3,22.0,1.2526175527349925
+805,This Side of Paradise,"Fitzgerald, F. Scott (Francis Scott)",6.8,15.0,1.4201683585045803
+902,"The Happy Prince, and Other Tales","Wilde, Oscar",6.0,16.0,1.2641704364836777
+3176,The Innocents Abroad,"Twain, Mark",9.5,22.0,1.4075083221594646
+2428,An Essay on Man; Moral Essays and Satires,"Pope, Alexander",8.3,22.0,1.3072138081302203
+102,The Tragedy of Pudd'nhead Wilson,"Twain, Mark",7.2,19.0,1.3259747846898968
+1600,Symposium,Plato,12.6,30.0,1.3940651179918373
+39293,The Gentlemen's Book of Etiquette and Manual of Politeness: Being a Complete Guide for a Gentleman's Conduct in All His Relations Towards Society,"Hartley, Cecil B.",11.1,26.0,1.4111045389105275
+51295,The Man Who Was Six,"Wallace, F. L. (Floyd L.)",5.2,11.0,1.3626660243617095
+31,Plays of Sophocles: Oedipus the King; Oedipus at Colonus; Antigone,Sophocles,5.6,15.0,1.2900641882856378
+73,The Red Badge of Courage: An Episode of the American Civil War,"Crane, Stephen",4.8,13.0,1.3489845512931782
+17306,The Condition of the Working-Class in England in 1844: with a Preface written in 1892,"Engels, Friedrich",12.6,27.0,1.4908980489098358
+1001,"Divine Comedy, Longfellow's Translation, Hell",Dante Alighieri,10.3,27.0,1.3134035436157423
+1254,Cyrano de Bergerac,"Rostand, Edmond",4.4,9.0,1.3774736842105264
+2265,Hamlet,"Shakespeare, William",6.0,16.0,1.273927120155935
+59,Discourse on the Method of Rightly Conducting One's Reason and of Seeking Truth in the Sciences,"Descartes, Rene",31.7,79.0,1.4413525017373174
+447,Maggie: A Girl of the Streets,"Crane, Stephen",5.6,12.0,1.355378642470773
+51248,The Library of Entertainment Handbook,"Scammell, John Chilton",8.7,17.0,1.4792572308745506
+164,Twenty Thousand Leagues under the Sea,"Verne, Jules",7.2,16.0,1.3976968991119523
+8492,The King in Yellow,"Chambers, Robert W. (Robert William)",6.0,16.0,1.3363419133059444
+38427,The World as Will and Idea (Vol. 1 of 3),"Schopenhauer, Arthur",16.5,37.0,1.5197810910541538
+36542,The American Occupation of the Philippines 1898-1912,"Blount, James H. (James Henderson)",12.6,27.0,1.5047904899446478
+2383,"The Canterbury Tales, and Other Poems","Chaucer, Geoffrey",11.5,30.0,1.2951233667828623
+8164,My Man Jeeves,"Wodehouse, P. G. (Pelham Grenville)",4.4,12.0,1.2794898582720624
+15272,"Spenser's The Faerie Queene, Book I","Spenser, Edmund",8.3,22.0,1.3174496914949387
+1097,Mrs. Warren's Profession,"Shaw, Bernard",5.2,14.0,1.3477296970046415
+18269,Pascal's Pensées,"Pascal, Blaise",6.8,18.0,1.3472578562981286
+6852,Venus in Furs,"Sacher-Masoch, Leopold, Ritter von",6.8,15.0,1.3625548454788248
+12753,The Legends of King Arthur and His Knights,"Knowles, James, Sir",8.7,26.0,1.2370098667350078
+5225,The Satyricon — Complete,Petronius Arbiter,10.7,25.0,1.4019172491199428
+131,"The Pilgrim's Progress from this world to that which is to come: Delivered under the similitude of a dream, by John Bunyan","Bunyan, John",7.9,24.0,1.2184706024220917
+421,Kidnapped,"Stevenson, Robert Louis",6.8,21.0,1.2293436434932385
+1946,On War — Volume 1,"Clausewitz, Carl von",15.8,35.0,1.495570728617471
+3913,The Confessions of Jean Jacques Rousseau — Complete,"Rousseau, Jean-Jacques",12.6,30.0,1.4405817914756387
+22367,Die Verwandlung,"Kafka, Franz",11.1,26.0,1.4384515119916579
+2638,The Idiot,"Dostoyevsky, Fyodor",6.8,15.0,1.3784665322463785
+51391,Famous Impostors,"Stoker, Bram",11.5,24.0,1.465482058924682
+43,The Strange Case of Dr. Jekyll and Mr. Hyde,"Stevenson, Robert Louis",7.9,21.0,1.332956810631229
+51240,The Addicts,"Samachson, Joseph",4.8,13.0,1.3415329275041505
+139,The Lost World,"Doyle, Arthur Conan",7.6,17.0,1.3697857680275611
+245,Life on the Mississippi,"Twain, Mark",8.7,20.0,1.3666255697009158
+9662,An Enquiry Concerning Human Understanding,"Hume, David",14.2,31.0,1.5490164530025432
+51233,The Marching Morons,"Kornbluth, C. M. (Cyril M.)",6.0,13.0,1.4299529582051747
+23700,The Decameron of Giovanni Boccaccio,"Boccaccio, Giovanni",17.7,43.0,1.350630033036535
+3420,A Vindication of the Rights of Woman: With Strictures on Political and Moral Subjects,"Wollstonecraft, Mary",15.0,33.0,1.5034526232997132
+78,Tarzan of the Apes,"Burroughs, Edgar Rice",8.7,20.0,1.3618498596819457
+14975,Southern Horrors: Lynch Law in All Its Phases,"Wells-Barnett, Ida B.",10.3,21.0,1.4518832781456954
+1756,Uncle Vanya: Scenes from Country Life in Four Acts,"Chekhov, Anton Pavlovich",4.0,11.0,1.3342695604596024
+6737,The Social Cancer: A Complete English Version of Noli Me Tangere,"Rizal, Jose",8.3,19.0,1.4146161982643906
+1200,Gargantua and Pantagruel,"Rabelais, Francois",11.5,27.0,1.3862289030360857
+25141,The Pursuit of God,"Tozer, A. W. (Aiden Wilson)",8.3,19.0,1.355621727076702
+1404,The Federalist Papers,"Jay, John",15.8,32.0,1.5789689574679358
+1079,"The Life and Opinions of Tristram Shandy, Gentleman","Sterne, Laurence",14.6,35.0,1.4011261273854723
+14005,The Ladies Delight,Anonymous,17.3,45.0,1.3221468229487972
+6400,"The Lives of the Twelve Caesars, Complete",Suetonius,13.0,28.0,1.4693004598459751
+3177,Roughing It,"Twain, Mark",9.9,23.0,1.3895022869523352
+32032,Second Variety,"Dick, Philip K.",2.5,7.0,1.3226225634967512
+51241,Bridge Crossing,"Dryfoos, Dave",5.2,11.0,1.358161582852432
+34206,"The Thousand and One Nights, Vol. I.: Commonly Called the Arabian Nights' Entertainments",Unknown,11.5,27.0,1.363508115141416
+14328,The Consolation of Philosophy,Boethius,9.5,22.0,1.3895942653673163
+41617,A Complete Guide to Heraldry,"Fox-Davies, Arthur Charles",11.1,26.0,1.4238141963194728
+17161,Max und Moritz: Eine Bubengeschichte in sieben Streichen,"Busch, Wilhelm",5.6,12.0,1.3521259842519686
+1974,The Poetics of Aristotle,Aristotle,10.7,22.0,1.4908874329958308
+8121,Ghosts,"Ibsen, Henrik",3.7,10.0,1.3132948453608249
+12116,Struwwelpeter: Merry Stories and Funny Pictures,"Hoffmann, Heinrich",5.2,17.0,1.205588484335309
+31547,Youth,"Asimov, Isaac",3.3,9.0,1.3377967616966326
+1858,Plain Tales from the Hills,"Kipling, Rudyard",7.9,18.0,1.3513945891615713
+5230,The Invisible Man: A Grotesque Romance,"Wells, H. G. (Herbert George)",4.8,13.0,1.3465287517531557
+11224,Utilitarianism,"Mill, John Stuart",16.9,38.0,1.546508258475804
+31552,Novo dicionário da língua portuguesa,"Figueiredo, Candido de",7.2,7.0,1.6835612611467219
+269,Beasts and Super-Beasts,Saki,8.3,19.0,1.4289898269941035
+41873,"The History of Prostitution: Its Extent, Causes, and Effects throughout the World","Sanger, William W.",11.1,23.0,1.5356251411690047
+18857,A Journey to the Centre of the Earth,"Verne, Jules",7.2,16.0,1.4267601692840404
+12513,A Classification and Subject Index for Cataloguing and Arranging the Books and Pamphlets of a Library,"Dewey, Melvil",9.5,22.0,1.439157476275968
+833,The Theory of the Leisure Class,"Veblen, Thorstein",16.2,33.0,1.6480308682404534
+82,Ivanhoe: A Romance,"Scott, Walter",11.5,27.0,1.4022566995768688
+2610,Notre-Dame De Paris,"Hugo, Victor",7.9,18.0,1.4015868539508651
+6867,"Lineage, Life and Labors of José Rizal, Philippine Patriot","Craig, Austin",13.4,29.0,1.5226608210442407
+3289,The Valley of Fear,"Doyle, Arthur Conan",5.2,14.0,1.3117044585101203
+159,The Island of Doctor Moreau,"Wells, H. G. (Herbert George)",6.8,15.0,1.3597163901700282
+28885,Alice's Adventures in Wonderland: Illustrated by Arthur Rackham. With a Proem by Austin Dobson,"Carroll, Lewis",6.4,17.0,1.2858415841584159
+51337,The Man Outside,"Smith, Evelyn E.",6.0,13.0,1.4128213021394491
+940,The Last of the Mohicans; A narrative of 1757,"Cooper, James Fenimore",10.7,25.0,1.409867440213175
+500,The Adventures of Pinocchio,"Collodi, Carlo",4.8,13.0,1.2668815693751097
+12030,"The Spectator, Volumes 1, 2 and 3: With Translations and Index for the Series","Steele, Richard, Sir",13.0,31.0,1.392213631599387
+35997,The Jungle Book,"Kipling, Rudyard",6.8,18.0,1.2553806078147611
+51296,The Sense of Wonder,"Marlowe, Stephen",4.4,12.0,1.321289558300897
+40311,China and Pottery Marks,Unknown,6.0,7.0,1.5832479306267244
+11339,Aesop's Fables; a new translation,Aesop,8.3,25.0,1.239968617984309
+16643,Essays by Ralph Waldo Emerson,"Emerson, Ralph Waldo",7.9,18.0,1.4275929022167089
+20776,Encyclopedia of Needlework,"Dillmont, Therese de",6.4,20.0,1.2047672279609452
+22120,"Chaucer's Works, Volume 4 (of 7) — The Canterbury Tales","Chaucer, Geoffrey",6.8,21.0,1.2024330360877349
+910,White Fang,"London, Jack",5.6,15.0,1.3290361997861615
+512,"Mosses from an Old Manse, and Other Stories","Hawthorne, Nathaniel",9.5,22.0,1.4347061722985925
+143,The Mayor of Casterbridge,"Hardy, Thomas",7.6,17.0,1.3758821026304593
+16966,"Shakespearean Tragedy: Lectures on Hamlet, Othello, King Lear, Macbeth","Bradley, A. C. (Andrew Cecil)",9.9,23.0,1.4075179660501587
+1321,The Waste Land,"Eliot, T. S. (Thomas Stearns)",6.8,18.0,1.3263360410431808
+242,My Antonia,"Cather, Willa",6.0,16.0,1.3054316281357599
+15845,Florante at Laura,"Balagtas, Francisco",9.5,16.0,1.6016172628164698
+1656,Apology,Plato,11.5,27.0,1.3595446911737266
+11231,"Bartleby, the Scrivener: A Story of Wall-Street","Melville, Herman",7.9,18.0,1.4386833855799372
+27,Far from the Madding Crowd,"Hardy, Thomas",6.0,16.0,1.3489593895669048
+731,History of the Decline and Fall of the Roman Empire — Volume 1,"Gibbon, Edward",11.5,24.0,1.5366797430897001
+13415,The Lady with the Dog and Other Stories,"Chekhov, Anton Pavlovich",7.2,16.0,1.3509645694111714
+8299,Filipino Popular Tales,Unknown,6.0,16.0,1.3228475339559185
+2848,Antiquities of the Jews,"Josephus, Flavius",19.6,48.0,1.3592749377499083
+974,The Secret Agent: A Simple Tale,"Conrad, Joseph",6.8,15.0,1.4242596330885777
+17192,The Raven,"Poe, Edgar Allan",10.7,22.0,1.464577504196978
+2199,The Iliad,Homer,11.8,31.0,1.2620475576133439
+3186,"The Mysterious Stranger, and Other Stories","Twain, Mark",7.6,20.0,1.3073292735972162
+51315,How?: or Spare Hours Made Profitable for Boys and Girls,"Holbrook, Kennedy",10.3,27.0,1.3395652759689227
+28522,Laura Middleton; Her Brother and her Lover,Anonymous,15.0,36.0,1.392303139795664
+6081,Biographia Literaria,"Coleridge, Samuel Taylor",14.2,31.0,1.4955434594031922
+11030,"Incidents in the Life of a Slave Girl, Written by Herself","Jacobs, Harriet A. (Harriet Ann)",6.0,16.0,1.304919547401639
+15718,"How To Write Special Feature Articles: A Handbook for Reporters, Correspondents and Free-Lance Writers Who Desire to Contribute to Popular Magazines and Magazine Sections of Newspapers","Bleyer, Willard Grosvenor",10.3,21.0,1.4644666545520626
+580,The Pickwick Papers,"Dickens, Charles",7.2,16.0,1.3758385805575712
+284,The House of Mirth,"Wharton, Edith",9.1,21.0,1.3921183639024164
+146,A Little Princess: Being the whole story of Sara Crewe now told for the first time,"Burnett, Frances Hodgson",5.2,14.0,1.3044187904088738
+51310,My Lady Greensleeves,"Pohl, Frederik",5.6,12.0,1.3536285097192227
+42474,"1000 Mythological Characters Briefly Described: Adapted to Private Schools, High Schools and Academies","Ellis, Edward Sylvester",7.2,13.0,1.4979118780148273
+4240,Women in Love,"Lawrence, D. H. (David Herbert)",5.6,12.0,1.363751296141242
+2446,An Enemy of the People,"Ibsen, Henrik",4.0,11.0,1.3234478330658106
+20480,Palmistry for All,Cheiro,10.3,24.0,1.4233343626042136
+30241,The Person and Work of The Holy Spirit,"Torrey, R. A. (Reuben Archer)",8.3,22.0,1.302527768703038
+13437,Best Russian Short Stories,Unknown,6.8,15.0,1.372597427166099
+2229,Faust: Der Tragödie erster Teil,"Goethe, Johann Wolfgang von",4.0,11.0,1.2880661254035017
+558,The Thirty-Nine Steps,"Buchan, John",5.6,15.0,1.2750878992089072
+29765,Webster's Unabridged Dictionary,Various,6.0,10.0,1.464044960691667
+201,Flatland: A Romance of Many Dimensions (Illustrated),"Abbott, Edwin Abbott",12.6,27.0,1.46341291929105
+70,What Is Man? and Other Essays,"Twain, Mark",7.9,18.0,1.399500047664947
+5921,"The History of Don Quixote, Volume 1, Complete","Cervantes Saavedra, Miguel de",18.9,49.0,1.3286107443185768
+10554,"Right Ho, Jeeves","Wodehouse, P. G. (Pelham Grenville)",4.8,13.0,1.3168096264075777
+51353,Dr. Kometevsky's Day,"Leiber, Fritz",6.0,13.0,1.4440089086859689
+10947,The Best American Humorous Short Stories,Unknown,7.9,18.0,1.3855272219459005
+550,Silas Marner,"Eliot, George",9.5,25.0,1.3363032721018426
+6087,The Vampyre; a Tale,"Polidori, John William",13.8,33.0,1.428669833729216
+5001,Relativity : the Special and General Theory,"Einstein, Albert",11.5,24.0,1.5446110288913197
+8710,"The Doré Bible Gallery, Complete: Containing One Hundred Superb Illustrations, and a Page of Explanatory Letter-press Facing Each",Unknown,8.3,22.0,1.2545822784810128
+19721,The Literary World Seventh Reader,Unknown,6.8,18.0,1.3487644151565075
+204,The Innocence of Father Brown,"Chesterton, G. K. (Gilbert Keith)",7.9,18.0,1.3542256466145404
+51242,"Electricity in Locomotion: An Account of its Mechanism, its Achievements, and its Prospects","Whyte, Adam Gowens",12.7,24.0,1.5649496473560476
+2226,Kim,"Kipling, Rudyard",4.8,13.0,1.3257939470510538
+2892,Irish Fairy Tales,"Stephens, James",7.2,19.0,1.251172678852439
+202,My Bondage and My Freedom,"Douglass, Frederick",9.9,23.0,1.4201926440922727
+8106,"Captain Cook's Journal During His First Voyage Round the World: Made in H. M. Bark ""Endeavour"", 1768-71","Cook, James",9.1,24.0,1.2899425324299654
+271,Black Beauty,"Sewell, Anna",7.9,24.0,1.2052786070481496
+921,De Profundis,"Wilde, Oscar",8.7,23.0,1.336894683372841
+11136,A Discourse Upon the Origin and the Foundation of the Inequality Among Mankind,"Rousseau, Jean-Jacques",22.8,53.0,1.4872264270534283
+2992,The Middle-Class Gentleman,Moliere,5.2,11.0,1.3843014042948472
+4081,The Alchemist,"Jonson, Ben",5.2,11.0,1.3829195445211873
+8775,Poems,"Hugo, Victor",7.2,19.0,1.3119258039103345
+9800,The Rape of the Lock and Other Poems,"Pope, Alexander",9.1,21.0,1.3552871329494196
+21,Aesop's Fables: Translated by George Fyler Townsend,Aesop,8.3,22.0,1.3188751284938078
+816,Democracy in America — Volume 2,"Tocqueville, Alexis de",15.0,33.0,1.547779508602988
+2397,"The Story of My Life: With her letters (1887-1901) and a supplementary account of her education, including passages from the reports and letters of her teacher, Anne Mansfield Sullivan, by John Albert Macy","Keller, Helen",7.2,19.0,1.3399669308736626
+383,"She Stoops to Conquer; Or, The Mistakes of a Night: A Comedy","Goldsmith, Oliver",4.4,12.0,1.334312650734488
+60,The Scarlet Pimpernel,"Orczy, Emmuska Orczy, Baroness",8.3,19.0,1.3874437700821134
+36287,The Poems and Prose Poems of Charles Baudelaire: with an Introductory Preface by James Huneker,"Baudelaire, Charles",9.5,22.0,1.425192225544639
+151,The Rime of the Ancient Mariner,"Coleridge, Samuel Taylor",4.8,16.0,1.1940871369294606
+22994,The Frontier in American History,"Turner, Frederick Jackson",12.3,26.0,1.5077267206131422
+15,Moby Dick,"Melville, Herman",4.4,9.0,1.4347997373604726
+34811,Buddenbrooks: Verfall einer Familie,"Mann, Thomas",8.7,17.0,1.5054074499165275
+51171,A Little Journey,"Bradbury, Ray",4.4,12.0,1.3234673955486138
+599,Vanity Fair,"Thackeray, William Makepeace",9.1,21.0,1.375117580520331
+51361,Birds of a Feather,"Silverberg, Robert",5.6,12.0,1.3801250325605627
+7452,Autobiography of a Yogi,"Yogananda, Paramahansa",8.0,15.0,1.517711491568721
+51341,Nine Thousand Miles On A Pullman Train: An Account of a Tour of Railroad Conductors From; Philadelphia to the Pacific Coast an Return,"Shaw, Milton",7.9,18.0,1.3550365447456074
+15489,Dream Psychology: Psychoanalysis for Beginners,"Freud, Sigmund",11.9,25.0,1.5200525345107023
+51297,The Pilot and the Bushman,"Jacobs, Sylvia",8.0,15.0,1.4837625491051942
+1430,Beautiful Stories from Shakespeare,"Shakespeare, William",6.4,17.0,1.3282859402972647
+2149,The Works of Edgar Allan Poe — Volume 3,"Poe, Edgar Allan",11.1,26.0,1.4399313018500293
+208,Daisy Miller: A Study,"James, Henry",6.0,13.0,1.4013513513513514
+26654,Peter and Wendy,"Barrie, J. M. (James Matthew)",5.6,15.0,1.2726656101426308
+4367,"Personal Memoirs of U. S. Grant, Complete","Grant, Ulysses S. (Ulysses Simpson)",9.5,22.0,1.4343040205029634
+51292,"Trial of the Major War Criminals Before the International Military Tribunal, Vol. I: Nuremburg 14 November 1945-1 October 1946: Vol. I",Various,13.8,27.0,1.5709538223739292
+39509,"The Black Man, the Father of Civilization, Proven by Biblical History","Webb, James Morris",11.5,27.0,1.412387676508344
+51425,The Autobiography of a Super-Tramp,"Davies, W. H. (William Henry)",11.1,26.0,1.3512846191035293
+45109,The Enchiridion,Epictetus,7.9,18.0,1.4067945354202478
+18993,History  of the World War: An Authentic Narrative of the World's Greatest War,"March, Francis Andrew",10.3,21.0,1.5156240245003332
+51305,Confidence Game,"Harmon, Jim",4.0,11.0,1.3138963531669865
+2040,Confessions of an English Opium-Eater,"De Quincey, Thomas",14.2,34.0,1.438411367342185
+19322,The Antichrist,"Nietzsche, Friedrich Wilhelm",11.5,24.0,1.5093019799036804
+35461,A Short History of the World,"Wells, H. G. (Herbert George)",10.7,22.0,1.4821889836132525
+175,The Phantom of the Opera,"Leroux, Gaston",5.2,14.0,1.3371914290773863
+14969,Three Contributions to the Theory of Sex,"Freud, Sigmund",14.6,29.0,1.639880444064902
+621,The Varieties of Religious Experience: A Study in Human Nature,"James, William",11.1,23.0,1.4661519463087247
+3155,She,"Haggard, H. Rider (Henry Rider)",11.5,27.0,1.4013352974719635
+5402,1811 Dictionary of the Vulgar Tongue,"Grose, Francis",6.0,13.0,1.388839765359679
+12242,"Poems by Emily Dickinson, Three Series, Complete","Dickinson, Emily",7.2,19.0,1.3189347960144104
+1567,Poems,"Eliot, T. S. (Thomas Stearns)",8.3,19.0,1.3658243263814889
+1091,"On Heroes, Hero-Worship, and the Heroic in History","Carlyle, Thomas",9.5,22.0,1.4020503609313044
+17116,"Ang Liham ni Dr. Jose Rizal sa mga Kadalagahan sa Malolos, Bulakan","Rizal, Jose",13.8,27.0,1.6480900207284572
+51354,Patty's Fortune,"Wells, Carolyn",4.0,11.0,1.2975730625011777
+2850,"The Wars of the Jews; Or, The History of the Destruction of Jerusalem","Josephus, Flavius",19.6,48.0,1.3727024722209258
+2009,"The Origin of Species by Means of Natural Selection: Or, the Preservation of Favoured Races in the Struggle for Life, 6th Edition","Darwin, Charles",16.2,33.0,1.5684880880396663
+23042,The Tempest: The Works of William Shakespeare [Cambridge Edition] [9 vols.],"Shakespeare, William",2.9,11.0,1.215734670266101
+51413,The Ignoble Savages,"Smith, Evelyn E.",7.6,14.0,1.4595963204429758
+785,On the Nature of Things,"Lucretius Carus, Titus",15.0,39.0,1.3376993860873572
+20417,"The Outline of Science, Vol. 1 (of 4): A Plain Story Simply Told","Thomson, J. Arthur (John Arthur)",10.7,22.0,1.5001181767023073
+42671,Pride and Prejudice,"Austen, Jane",7.9,18.0,1.4045784496263911
+35451,Medea of Euripides,Euripides,5.6,15.0,1.2613235294117646
+4039,"Volpone; Or, The Fox","Jonson, Ben",5.6,12.0,1.391661062542031
+51243,"The life of Midhat Pasha; a record of his services, political reforms, banishment, and judicial murder",Ali Haydar Mithat,13.8,30.0,1.5404118572927596
+2267,Othello,"Shakespeare, William",4.8,13.0,1.2898344311910273
+51238,The Pride of Jennico: Being a Memoir of Captain Basil Jennico,"Castle, Egerton",9.9,23.0,1.356250418569764
+51311,Make Me An Offer,"Blomberg, Con",5.6,15.0,1.304054054054054
+51397,People Soup,"Arkin, Alan",3.7,10.0,1.2905577299412916
+36238,"The Mantle, and Other Stories","Gogol, Nikolai Vasilevich",7.2,16.0,1.3702306840662832
+1672,Gorgias,Plato,10.3,24.0,1.3995715755561926
+1240,The Playboy of the Western World: A Comedy in Three Acts,"Synge, J. M. (John Millington)",3.6,13.0,1.228931338628722
+51407,Sea Legs,"Quattrocchi, Frank",4.8,10.0,1.3676419717497839
+1658,Phaedo,Plato,11.5,27.0,1.3803941738947467
+12108,Der Tod in Venedig,"Mann, Thomas",12.7,24.0,1.6490141070856041
+883,Our Mutual Friend,"Dickens, Charles",6.4,17.0,1.3358455051255316
+51351,The Spicy Sound of Success,"Harmon, Jim",4.8,10.0,1.3884746370317262
+29558,"Boy Scouts Handbook: The First Edition, 1911",Boy Scouts of America,7.9,18.0,1.3517621197437777
+8438,The Ethics of Aristotle,Aristotle,16.1,39.0,1.4192270992366411
+389,The Great God Pan,"Machen, Arthur",7.6,20.0,1.3248534908402936
+3743,The Writings of Thomas Paine — Volume 4 (1794-1796): The Age of Reason,"Paine, Thomas",13.4,32.0,1.4095478635309704
+15043,"The Works of the Right Honourable Edmund Burke, Vol. 01 (of 12)","Burke, Edmund",13.0,28.0,1.479800358397433
+5116,Pragmatism: A New Name for Some Old Ways of Thinking,"James, William",9.9,20.0,1.5143544537685734
+51408,Angel's Egg,"Pangborn, Edgar",7.2,16.0,1.3891487371375117
+1695,The Man Who Was Thursday: A Nightmare,"Chesterton, G. K. (Gilbert Keith)",7.2,16.0,1.3591501523734095
+854,A Woman of No Importance,"Wilde, Oscar",4.8,10.0,1.3537946727345735
+2707,The History of Herodotus — Volume 1,Herodotus,16.1,42.0,1.3252169234289672
+3618,Arms and the Man,"Shaw, Bernard",5.2,11.0,1.3691403708523098
+150,The Republic,Plato,11.1,26.0,1.3671824235210859
+7986,"Plays by Anton Chekhov, Second Series","Chekhov, Anton Pavlovich",4.8,10.0,1.355319688138221
+2232,The Duchess of Malfi,"Webster, John",4.8,13.0,1.3368984763916125
+51347,"Submarines, Mines and Torpedoes in the War","Domville-Fife, Charles William",9.9,20.0,1.4943312464428002
+51395,Survival Type,"Bone, Jesse F. (Jesse Franklin)",7.6,14.0,1.4642148560367771
+51304,A Touch of E Flat,"Gibson, Joe",6.8,15.0,1.4101069137562365
+51335,Fresh Air Fiend,"Neville, Kris",4.4,12.0,1.318179834133566
+31516,The Eyes Have It,"Dick, Philip K.",4.4,9.0,1.4067961165048544
+2166,King Solomon's Mines,"Haggard, H. Rider (Henry Rider)",7.9,21.0,1.3072593890287967
+28644,Beyond the Door,"Dick, Philip K.",3.3,9.0,1.2750606305578012
+6157,"What Men Live By, and Other Tales","Tolstoy, Leo, graf",4.8,16.0,1.241808510638298
+24571,Der Struwwelpeter: oder lustige Geschichten und drollige Bilder,"Hoffmann, Heinrich",5.2,14.0,1.3364970645792562
+19994,The Aesop for Children: With pictures by Milo Winter,Aesop,4.8,16.0,1.2348623853211007
+8117,The Possessed (The Devils),"Dostoyevsky, Fyodor",6.8,15.0,1.3970651771142946
+29021,The Fairy Tales of Charles Perrault,"Perrault, Charles",10.3,27.0,1.3132672566371681
+17396,The Secret Garden,"Burnett, Frances Hodgson",5.2,14.0,1.2511753152908334
+51382,"The National Geographic Magazine, Vol. II., No. 2, May, 1890",Various,10.3,24.0,1.4347518490727837
+8419,"The Journals of Lewis and Clark, 1804-1806","Clark, William",10.3,27.0,1.2979477991161834
+4320,An Enquiry Concerning the Principles of Morals,"Hume, David",15.4,31.0,1.609116365899191
+1164,The Iron Heel,"London, Jack",6.4,14.0,1.4101223290354914
+376,A Journal of the Plague Year: Written by a Citizen Who Continued All the While in London,"Defoe, Daniel",18.5,48.0,1.3393705281180313
+38326,Bede's Ecclesiastical History of England,"Bede, the Venerable, Saint",7.9,21.0,1.3225870431173854
+4507,As a Man Thinketh,"Allen, James",12.3,26.0,1.465952380952381
+51184,Inside Earth,"Anderson, Poul",6.4,14.0,1.3952311463927154
+12096,"Bushido, the Soul of Japan","Nitobe, Inazo",11.5,24.0,1.502287200645798
+23218,The Red Room,"Wells, H. G. (Herbert George)",8.3,19.0,1.3527522935779817
+503,The Blue Fairy Book,"Lang, Andrew",9.5,25.0,1.2574658508924637
+51342,Citizen Jell,"Shaara, Michael",6.0,16.0,1.3208928029152747
+40766,Nationalism,"Tagore, Rabindranath",11.9,25.0,1.474544841537424
+51,Anne of the Island,"Montgomery, L. M. (Lucy Maud)",4.8,13.0,1.339332593221446
+9182,Villette,"Bronte, Charlotte",8.3,19.0,1.392311807293993
+12383,The Poetical Works of William Wordsworth — Volume 3,"Wordsworth, William",10.7,28.0,1.3440159282090536
+1268,The Mysterious Island,"Verne, Jules",7.9,18.0,1.402487973930585
+14522,The Canterville Ghost,"Wilde, Oscar",10.3,24.0,1.3734077253218884
+51321,Prime Difference,"Nourse, Alan Edward",4.4,12.0,1.3411764705882352
+48320,Adventures of Sherlock Holmes: Illustrated,"Doyle, Arthur Conan",5.6,15.0,1.3153025914920824
+2759,The Man in the Iron Mask,"Dumas, Alexandre",7.2,16.0,1.3818999677463946
+1279,Poems and Songs of Robert Burns,"Burns, Robert",7.2,19.0,1.268652133624413
+51421,Man in a Quandary,"Wesley, Joseph",6.8,15.0,1.4082857142857144
+33504,"Opticks: Or, A Treatise of the Reflections, Refractions, Inflections, and Colours of Light","Newton, Isaac, Sir",16.9,41.0,1.3681450527092662
+3178,The Gilded Age: A Tale of Today,"Twain, Mark",7.9,18.0,1.3701318557736655
+24518,Memoirs of Extraordinary Popular Delusions and the Madness of Crowds,"Mackay, Charles",11.5,24.0,1.45224529316837
+77,The House of the Seven Gables,"Hawthorne, Nathaniel",11.1,23.0,1.4554212157330153
+26184,Simple Sabotage Field Manual,United States. Office of Strategic Services,9.5,19.0,1.4898144104803495
+876,"Life in the Iron-Mills; Or, The Korl Woman","Davis, Rebecca Harding",5.2,14.0,1.3069373597225058
+51380,Time In the Round,"Leiber, Fritz",5.6,12.0,1.4291338582677164
+47,Anne of Avonlea,"Montgomery, L. M. (Lucy Maud)",5.2,14.0,1.3151477291912883
+4018,Japanese Fairy Tales,"Ozaki, Yei Theodora",7.6,20.0,1.2826112204863815
+601,The Monk: A Romance,"Lewis, M. G. (Matthew Gregory)",7.9,18.0,1.4348191794624667
+7128,Indian Fairy Tales,Unknown,6.8,18.0,1.292236653453656
+39947,"Historia de Venezuela, Tomo I","Aguado, Pedro de, active 16th century",25.1,56.0,1.6468103439588013
+51409,Public School Life: Boys Masters Parents,"Waugh, Alec",7.6,17.0,1.4001859871573832
+51411,The Campaign in Russian Poland,"Standing, Percy Cross",11.9,25.0,1.5055423339115002
+7205,Also sprach Zarathustra: Ein Buch für Alle und Keinen,"Nietzsche, Friedrich Wilhelm",6.4,14.0,1.3520685826179362
+51363,Double Standard,"Coppel, Alfred",3.3,9.0,1.327247191011236
+14977,The Red Record: Tabulated Statistics and Alleged Causes of Lynching in the United States,"Wells-Barnett, Ida B.",9.1,21.0,1.415733294341278
+41360,The Elementary Forms of the Religious Life,"Durkheim, Emile",10.7,22.0,1.4784239217206852
+2151,The Works of Edgar Allan Poe — Volume 5,"Poe, Edgar Allan",9.5,22.0,1.4124657875093307
+26,Paradise Lost,"Milton, John",17.7,43.0,1.3505214628372064
+17957,On the Sublime,"Longinus, 1st cent.",10.7,22.0,1.4528391692184794
+51320,Break a Leg,"Harmon, Jim",6.4,14.0,1.3866928336287667
+8578,The Grand Inquisitor,"Dostoyevsky, Fyodor",9.9,23.0,1.3859439834024896
+21531,"Woodwork Joints: How they are Set Out, How Made and Where Used.","Fairham, William",6.4,17.0,1.345649053435528
+51332,To The Fore With the Tanks!,"Westerman, Percy F. (Percy Francis)",6.8,15.0,1.4353042167413426
+51290,Memories of the Kaiser's Court,"Topham, Anne",11.5,24.0,1.4525752414625732
+51330,I Am A Nucleus,"Barr, Stephen",4.4,12.0,1.3154813908789096
+51329,Turkey; the Awakening of Turkey; the Turkish Revolution of 1908,"Knight, E. F. (Edward Frederick)",15.0,33.0,1.5188715054501867
+51396,Not a Creature Was Stirring,"Evans, Dean",4.8,13.0,1.313737528779739
+7213,My Life and Work,"Ford, Henry",7.9,18.0,1.4250909285982511
+2499,Siddhartha: eine indische Dichtung,"Hesse, Hermann",7.9,18.0,1.4149137855834377
+2833,The Portrait of a Lady — Volume 1,"James, Henry",7.2,16.0,1.3865851779569618
+14021,Lord of the World,"Benson, Robert Hugh",7.9,18.0,1.3846286076178413
+29433,Nature,"Emerson, Ralph Waldo",8.3,19.0,1.4312552983371372
+5682,Fundamental Principles of the Metaphysic of Morals,"Kant, Immanuel",18.1,41.0,1.518023992977665
+31469,The Shunned House,"Lovecraft, H. P. (Howard Phillips)",13.8,30.0,1.4858474889217135
+2376,Up from Slavery: An Autobiography,"Washington, Booker T.",10.3,24.0,1.3874505709624796
+2981,"The Memoirs of Jacques Casanova de Seingalt, 1725-1798. Complete","Casanova, Giacomo",7.9,21.0,1.3327641412148141
+119,A Tramp Abroad,"Twain, Mark",9.1,21.0,1.3827314123953656
+2811,Letters of Pliny,"Pliny, the Younger",13.4,32.0,1.4462110692322951
+28890,Helps to Latin Translation at Sight,"Luce, Edmund",8.4,13.0,1.6188007542426146
+7889,Erotica Romana,"Goethe, Johann Wolfgang von",7.2,16.0,1.3995093666369314
+51344,Voyage to Far N'jurd,"Neville, Kris",3.3,9.0,1.2869480361063674
+6593,"History of Tom Jones, a Foundling","Fielding, Henry",12.2,29.0,1.391713620249696
+15491,Micrographia: Some Physiological Descriptions of Minute Bodies Made by Magnifying Glasses with Observations and Inquiries Thereupon,"Hooke, Robert",23.9,59.0,1.3939478825675728
+51414,...So They Baked a Cake,"Marks, Winston K.",6.4,14.0,1.4108868060562365
+963,Little Dorrit,"Dickens, Charles",8.3,19.0,1.35366419748695
+1874,The Railway Children,"Nesbit, E. (Edith)",5.2,14.0,1.261967246293704
+1093,The Beast in the Jungle,"James, Henry",7.9,21.0,1.3269970374360356
+148,The Autobiography of Benjamin Franklin,"Franklin, Benjamin",13.0,31.0,1.4062049585278522
+6762,Politics: A Treatise on Government,Aristotle,23.2,57.0,1.4488145962004533
+17824,Little Black Sambo,"Bannerman, Helen",6.0,16.0,1.290566037735849
+21765,"The Metamorphoses of Ovid, Books I-VII",Ovid,9.9,23.0,1.3816364158804655
+9105,Reflections; or Sentences and Moral Maxims,"La Rochefoucauld, Francois duc de",7.9,18.0,1.3975394286037885
+1213,The Man That Corrupted Hadleyburg,"Twain, Mark",7.2,16.0,1.3625014173942624
+657,The Anglo-Saxon Chronicle,Unknown,8.7,23.0,1.3466811568207475
+16713,Amusements in Mathematics,"Dudeney, Henry Ernest",6.8,18.0,1.2680233418870903
+10636,The Travels of Marco Polo — Volume 1,Rustichello of Pisa,8.7,20.0,1.400285440733019
+32,Herland,"Gilman, Charlotte Perkins",7.2,16.0,1.401597468597181
+14314,Etiquette,"Post, Emily",9.5,22.0,1.4048478529048933
+15210,Darkwater: Voices from Within the Veil,"Du Bois, W. E. B. (William Edward Burghardt)",8.7,20.0,1.4128509574610544
+16436,Poems Every Child Should Know: The What-Every-Child-Should-Know-Library,Unknown,7.6,20.0,1.2528009732067764
+51271,"The History of the Highland Clearances: Second Edition, Altered and Revised","Mackenzie, Alexander",13.0,31.0,1.438237231961027
+51318,"Prisoner of the Mill: or, Captain Hayward's ""Body Guard""","Hazelton, Harry",6.4,14.0,1.3562529439472444
+51362,Lex,"Haggert, W. T.",6.8,15.0,1.3934267382480032
+24869,"The Rámáyan of Válmíki, translated into English verse",Valmiki,7.9,21.0,1.2947466688661773
+38145,"Human, All Too Human: A Book for Free Spirits","Nietzsche, Friedrich Wilhelm",12.3,26.0,1.5489045127534335
+51268,The Girls From Earth,"Robinson, Frank M.",5.6,12.0,1.3588840142582945
+1237,Father Goriot,"Balzac, Honore de",6.4,17.0,1.3417066507052315
+1252,Le Morte d'Arthur: Volume 2,"Malory, Thomas, Sir",9.1,27.0,1.235567867036011
+2529,The Analysis of Mind,"Russell, Bertrand",11.9,25.0,1.5237735849056602
+28521,The Power of Mesmerism: A Highly Erotic Narrative of Voluptuous Facts and Fancies,Anonymous,11.1,26.0,1.363103324991062
+51350,No Substitutions,"Harmon, Jim",5.6,12.0,1.3535492532304079
+51398,Growing Up On Big Muddy,"De Vet, Charles V. (Charles Vincent)",6.0,13.0,1.4019448946515398
+35690,Omens and Superstitions of Southern India,"Thurston, Edgar",9.5,22.0,1.407309011798176
+790,Lady Windermere's Fan,"Wilde, Oscar",4.4,9.0,1.3613731523987287
+1041,Shakespeare's Sonnets,"Shakespeare, William",11.8,34.0,1.2431116389548693
+51340,"The Mentor: The Metropolitan Museum of Art, Vol. 6, Num. 9, Serial No. 157, June 15, 1918","Noe, Sydney P.",8.7,17.0,1.4713986380303823
+15396,Tender Buttons: Objects—Food—Rooms,"Stein, Gertrude",7.2,16.0,1.3676441119497695
+15263,"The Underground Railroad: A Record of Facts, Authentic Narratives, Letters, &c., Narrating the Hardships, Hair-Breadth Escapes and Death Struggles of the Slaves in Their Efforts for Freedom, As Related by Themselves and Others, or Witnessed by the Author.","Still, William",9.1,21.0,1.4009819675058026
+967,Nicholas Nickleby,"Dickens, Charles",8.3,19.0,1.3771798587043869
+153,Jude the Obscure,"Hardy, Thomas",6.0,16.0,1.3485277671656304
+157,Daddy-Long-Legs,"Webster, Jean",5.2,14.0,1.343167979215718
+969,The Tenant of Wildfell Hall,"Bronte, Anne",9.9,23.0,1.3627533823878473
+18362,"Fifteen Thousand Useful Phrases: A Practical Handbook Of Pertinent Expressions, Striking Similes, Literary, Commercial, Conversational, And Oratorical Terms, For The Embellishment Of Speech And Literature, And The Improvement Of The Vocabulary Of Those Persons Who Read, Write, And Speak English","Kleiser, Grenville",96.1,235.0,1.6794588699498818
+51404,Plain Living: A Bush Idyll,"Boldrewood, Rolf",7.2,16.0,1.4119235888201676
+71,On the Duty of Civil Disobedience,"Thoreau, Henry David",11.1,26.0,1.3997107039537127
+8147,The Man Who Would Be King,"Kipling, Rudyard",6.4,17.0,1.27150204311681
+130,Orthodoxy,"Chesterton, G. K. (Gilbert Keith)",8.7,20.0,1.4241407951856322
+1129,The Tragedy of Macbeth,"Shakespeare, William",4.8,13.0,1.2916538798772468
+1564,"Boswell's Life of Johnson: Abridged and edited, with an introduction by Charles Grosvenor Osgood","Boswell, James",8.7,20.0,1.3840878325490593
+51420,License to Steal,"Newman, Louis",11.9,25.0,1.5203960981377476
+51368,"A Queen of Tears, vol. 1 of 2: Caroline Matilda, Queen of Denmark and Norway and Princess; of Great Britain and Ireland","Wilkins, W. H. (William Henry)",11.1,23.0,1.4609233713946275
+51379,The Music Master of Babylon,"Pangborn, Edgar",6.8,15.0,1.3733843537414965
+2002,Sonnets from the Portuguese,"Browning, Elizabeth Barrett",7.9,21.0,1.2505107624954397
+11945,Essays of Schopenhauer,"Schopenhauer, Arthur",13.8,30.0,1.493894416577584
+2242,A Midsummer Night's Dream,"Shakespeare, William",6.0,16.0,1.284150067904029
+51326,The Principles of Chemistry Volume I (of 2),"Mendeleyev, Dmitry Ivanovich",13.0,25.0,1.5525233054720087
+1120,The Tragedy of Julius Caesar,"Shakespeare, William",4.8,13.0,1.29658382113041
+11027,Grimm's Fairy Stories,"Grimm, Jacob",7.5,23.0,1.2261057663815411
+3567,Memoirs of Napoleon Bonaparte — Complete,"Bourrienne, Louis Antoine Fauvelet de",10.7,22.0,1.484941734843503
+13529,"The Influence of Sea Power Upon History, 1660-1783","Mahan, A. T. (Alfred Thayer)",13.4,29.0,1.4564160831711856
+10897,The Wendigo,"Blackwood, Algernon",8.7,20.0,1.4137191970842626
+51331,"Swenson, Dispatcher","Miller, R. DeWitt",4.8,10.0,1.4228984751726834
+51306,A Dog Day: or The Angel in the House,"Emanuel, Walter",3.7,10.0,1.3195081967213114
+30201,In Praise of Folly: Illustrated with Many Curious Cuts,"Erasmus, Desiderius",20.0,49.0,1.4287224080267558
+27424,Cautionary Tales for Children,"Belloc, Hilaire",7.2,16.0,1.3957741211667913
+29728,Cookery and Dining in Imperial Rome,Apicius,7.6,17.0,1.4384860640693296
+15143,Famous Modern Ghost Stories,Unknown,7.2,16.0,1.3521866351171488
+10136,The Book of Household Management,"Beeton, Mrs. (Isabella Mary)",8.7,20.0,1.3681516779253893
+15776,The Economic Consequences of the Peace,"Keynes, John Maynard",12.6,27.0,1.5238846502004397
+40580,"A General History of the Pyrates:: from their first rise and settlement in the island of Providence, to the present time","Defoe, Daniel",16.5,40.0,1.3633198800827337
+51432,Stories from The Arabian Nights,"Housman, Laurence",12.2,29.0,1.3516446795920498
+501,The Story of Doctor Dolittle,"Lofting, Hugh",5.6,15.0,1.2588903872086303
+10940,"Manners, Customs, and Dress During the Middle Ages and During the Renaissance Period","Jacob, P. L.",12.3,26.0,1.4987587020948487
+14988,"Cicero's Tusculan Disputations: Also, Treatises On The Nature Of The Gods, And On The Commonwealth","Cicero, Marcus Tullius",12.6,30.0,1.43007325926498
+808,The Complete Plays of Gilbert and Sullivan,"Gilbert, W. S. (William Schwenck)",5.6,12.0,1.3643029464844985
+14568,Sir Gawayne and the Green Knight: An Alliterative Romance-Poem (c. 1360 A.D.),Unknown,9.1,24.0,1.267895420177694
+3435,The Book of the Thousand Nights and a Night — Volume 01,Unknown,9.9,26.0,1.2914677927876097
+45410,Composition,"Dow, Arthur Wesley",9.1,18.0,1.5250779472486726
+1719,The Ballad of the White Horse,"Chesterton, G. K. (Gilbert Keith)",10.7,31.0,1.2013905579399142
+1977,Phaedra,"Racine, Jean",5.2,14.0,1.3210413541889865
+51288,Man of Distinction,"Shaara, Michael",8.0,15.0,1.4659186535764375
+6688,The Mill on the Floss,"Eliot, George",7.9,21.0,1.3328948898319866
+5658,Lord Jim,"Conrad, Joseph",6.4,17.0,1.3476784659850203
+15859,The Piazza Tales,"Melville, Herman",11.1,23.0,1.450254531674351
+46915,A Treatise on Painting,"Leonardo, da Vinci",9.9,23.0,1.3844084682440847
+19337,A Christmas Carol,"Dickens, Charles",6.0,16.0,1.3156068574550919
+5720,A Shropshire Lad,"Housman, A. E. (Alfred Edward)",8.3,25.0,1.2111098828211364
+26659,"The Will to Believe, and Other Essays in Popular Philosophy","James, William",11.5,24.0,1.4839063874366247
+1212,Love and Freindship [sic],"Austen, Jane",11.1,26.0,1.4152020931071816
+51371,Slaveholding: Weighed in the Balance of Truth,"Fitch, Charles",10.3,27.0,1.3449842812232065
+27673,Oedipus King of Thebes: Translated into English Rhyming Verse with Explanatory Notes,Sophocles,4.8,13.0,1.2543509272467903
+51436,Bullet With His Name,"Leiber, Fritz",7.6,17.0,1.4075325114001014
+5427,Emile,"Rousseau, Jean-Jacques",10.7,25.0,1.3655557936848122
+28497,Myths of the Norsemen: From the Eddas and Sagas,"Guerber, H. A. (Helene Adeline)",12.6,30.0,1.391862238034022
+3623,The Golden Bough: A Study of Magic and Religion,"Frazer, James George",12.2,29.0,1.3900876420555026
+45502,How the Other Half Lives: Studies Among the Tenements of New York,"Riis, Jacob A. (Jacob August)",9.9,23.0,1.3895021326665686
+1513,Romeo and Juliet,"Shakespeare, William",5.6,15.0,1.2828668861712136
+3188,Mark Twain's Speeches,"Twain, Mark",6.8,18.0,1.3499316569395325
+7471,"The Man with Two Left Feet, and Other Stories","Wodehouse, P. G. (Pelham Grenville)",4.8,13.0,1.2971822651770242
+19163,Märchen für Kinder,"Andersen, H. C. (Hans Christian)",6.8,15.0,1.376061283115225
+21839,Sense and Sensibility,"Austen, Jane",9.1,21.0,1.4081894959741954
+27200,Fairy Tales of Hans Christian Andersen,"Andersen, H. C. (Hans Christian)",7.6,20.0,1.2751430141236548
+12254,Illustrated History of Furniture: From the Earliest to the Present Time,"Litchfield, Frederick",10.7,22.0,1.5399254808323055
+51267,End as a Hero,"Laumer, Keith",5.2,11.0,1.35
+51392,Hafiz in London,"Hafiz, 14th cent.",10.3,27.0,1.2955119214586255
+64,The Gods of Mars,"Burroughs, Edgar Rice",7.9,21.0,1.3370968327105177
+33447,The Pencil of Nature,"Talbot, William Henry Fox",11.5,24.0,1.4901561510867272
+34856,My Own Story,"Pankhurst, Emmeline",10.7,22.0,1.4573809175767956
+42704,Salomé: A Tragedy in One Act,"Wilde, Oscar",3.3,9.0,1.2984054669703873
+45814,An Advanced English Grammar with Exercises,"Farley, Frank Edgar",5.6,12.0,1.4030029774564017
+51336,What is Posat?,"Smith, Phyllis Sterling",7.2,13.0,1.4519550080342796
+2350,His Last Bow: An Epilogue of Sherlock Holmes,"Doyle, Arthur Conan",4.8,13.0,1.3242518908253864
+25447,Mysticism and Logic and Other Essays,"Russell, Bertrand",13.0,28.0,1.5263138091057318
+32474,"The Memoirs of the Conquistador Bernal Diaz del Castillo, Vol 1 (of 2): Written by Himself Containing a True and Full Account of the Discovery and Conquest of Mexico and New Spain.","Diaz del Castillo, Bernal",13.0,31.0,1.4418285571566636
+50133,The Dunwich Horror,"Lovecraft, H. P. (Howard Phillips)",9.9,23.0,1.4317473149324402
+1170,Anabasis,Xenophon,11.8,28.0,1.364762808349146
+18947,"The Younger Edda; Also called Snorre's Edda, or The Prose Edda",Snorri Sturluson,6.4,17.0,1.2779150359991636
+20916,The Arabian Nights: Their Best-known Tales,Unknown,11.5,30.0,1.343427595997248
+29635,Dr. Montessori's Own Handbook,"Montessori, Maria",9.5,22.0,1.4365618782331875
+2150,The Works of Edgar Allan Poe — Volume 4,"Poe, Edgar Allan",9.5,19.0,1.4754278588606546
+3268,The Mysteries of Udolpho,"Radcliffe, Ann Ward",11.8,28.0,1.432665840049597
+51422,In the path of the alphabet: an historical account of the ancient beginnings and; evolution of the modern alphabet,"Jermain, Frances",11.5,24.0,1.5329365835079032
+1,The Declaration of Independence of the United States of America,"Jefferson, Thomas",4.1,5.0,1.51875
+51258,A Bad Day for Vermin,"Laumer, Keith",5.2,11.0,1.3815595880333498
+544,Anne's House of Dreams,"Montgomery, L. M. (Lucy Maud)",5.2,14.0,1.3115390430115657
+20583,"The Tribes and Castes of the Central Provinces of India, Volume 1","Russell, R. V. (Robert Vane)",9.1,18.0,1.491366695455212
+14244,The Romance of Tristan and Iseult,"Bedier, Joseph",7.2,22.0,1.1936702478377226
+34099,"In Stahlgewittern, aus dem Tagebuch eines Stoßtruppführers","Junger, Ernst",9.5,16.0,1.6000385367878105
+946,Lady Susan,"Austen, Jane",9.9,23.0,1.4061352887577558
+122,The Return of the Native,"Hardy, Thomas",6.0,16.0,1.3385459165666689
+610,Idylls of the King,"Tennyson, Alfred Tennyson, Baron",10.7,31.0,1.2443346242486162
+981,Beowulf,Unknown,8.3,22.0,1.2871696801112655
+34632,Selected Sermons of Jonathan Edwards,"Edwards, Jonathan",12.2,29.0,1.3911155026699744
+2027,"Tartuffe; Or, The Hypocrite",Moliere,5.6,15.0,1.3415150512735694
+28554,Beyond Lies the Wub,"Dick, Philip K.",2.5,7.0,1.2915367483296214
+29004,English Translations Of Works Of Emile Zola: An Index to the Project Gutenberg Works of Zola in English,"Zola, Emile",3.7,10.0,1.27426614481409
+18900,A Text-Book of the History of Painting,"Van Dyke, John Charles",8.4,16.0,1.5338323513658276
+6695,Tales of the Jazz Age,"Fitzgerald, F. Scott (Francis Scott)",6.4,14.0,1.384444264775523
+8954,Lady Audley's Secret,"Braddon, M. E. (Mary Elizabeth)",8.7,20.0,1.3604970807654881
+107,Far from the Madding Crowd,"Hardy, Thomas",7.6,17.0,1.3671733165990485
+2274,How to Live on 24 Hours a Day,"Bennett, Arnold",7.9,18.0,1.4170689923687898
+1128,The Tragedy of King Lear,"Shakespeare, William",2.9,11.0,1.243168525447742
+16653,Myths of Babylonia and Assyria,"Mackenzie, Donald A. (Donald Alexander)",9.9,20.0,1.4964229958629303
+1081,Dead Souls,"Gogol, Nikolai Vasilevich",8.7,20.0,1.4132966057514829
+15474,"The Mahabharata of Krishna-Dwaipayana Vyasa, Volume 1: Books 1, 2 and 3",Unknown,9.9,20.0,1.4526749329387467
+3166,Doctor Thorne,"Trollope, Anthony",6.8,18.0,1.316904536970898
+12758,Library of the World's Best Mystery and Detective Stories,Unknown,8.3,19.0,1.3692272041494513
+23319,"Mechanical Drawing Self-Taught: Comprising instructions in the selection and preparation of drawing instruments, elementary instruction in practical mechanical drawing; together with examples in simple geometry and elementary mechanism, including screw threads, gear wheels, mechanical motions, engines and boilers","Rose, Joshua",8.7,23.0,1.333984538689401
+221,The Return of Sherlock Holmes,"Doyle, Arthur Conan",5.2,14.0,1.3300709939148072
+821,Dombey and Son,"Dickens, Charles",7.9,21.0,1.3471452446107843
+17321,"History of Egypt, Chaldea, Syria, Babylonia, and Assyria in the Light of Recent Discovery","King, L. W. (Leonard William)",12.6,27.0,1.4804208423855911
+216,"The Tao Teh King, or the Tao and its Characteristics",Laozi,7.6,20.0,1.3032560758187106
+19778,Alice's Abenteuer im Wunderland,"Carroll, Lewis",6.8,15.0,1.3707583774250442
+32154,The Variable Man,"Dick, Philip K.",4.1,8.0,1.4089722089123144
+51286,Pen Pal,"Marlowe, Stephen",6.0,13.0,1.3798030507820043
+68,Warlord of Mars,"Burroughs, Edgar Rice",9.9,26.0,1.3435645644068686
+19068,Household Stories by the Brothers Grimm,"Grimm, Wilhelm",7.2,22.0,1.2007607519610495
+3250,"How to Tell a Story, and Other Essays","Twain, Mark",7.6,20.0,1.3213930348258707
+51308,My Strange Rescue: and other stories of Sport and Adventure in Canada,"Oxley, J. Macdonald (James Macdonald)",9.9,23.0,1.352367329085342
+28900,English Synonyms and Antonyms: With Notes on the Correct Use of Prepositions,"Fernald, James Champlin",9.9,17.0,1.5695269900472302
+30240,The Big Trip Up Yonder,"Vonnegut, Kurt",6.8,15.0,1.382417885730058
+51284,The Ways of the Planets,"Martin, Martha Evans",11.1,26.0,1.4137474634833
+51358,"Gutenberg, and the Art of Printing","Pearson, Emily Clemens",8.3,19.0,1.4277587617505134
+29827,"The Life and Amours of the Beautiful, Gay and Dashing Kate Percival: The Belle of the Delaware","Percival, Kate",8.3,19.0,1.3816295392126945
+1643,Meno,Plato,9.1,21.0,1.4137755332100825
+34222,Das Unheimliche,"Freud, Sigmund",11.1,20.0,1.5666140947953848
+16317,The Art of Public Speaking,"Esenwein, J. Berg (Joseph Berg)",8.3,19.0,1.4436687638925516
+4352,Laughter: An Essay on the Meaning of the Comic,"Bergson, Henri",11.1,23.0,1.4971782813168022
+19725,"The History of Rome, Books 01 to 08",Livy,15.4,34.0,1.4586105435226808
+624,"Looking Backward, 2000 to 1887","Bellamy, Edward",9.9,23.0,1.441403720643404
+19719,The Art Of Writing & Speaking The English Language: Word-Study and Composition & Rhetoric,"Cody, Sherwin",9.1,21.0,1.4175495723172629
+20781,Heidi: (Gift Edition),"Spyri, Johanna",4.8,13.0,1.2895079103173832
+2434,New Atlantis,"Bacon, Francis",13.4,32.0,1.3550445859872613
+370,The Fortunes and Misfortunes of the Famous Moll Flanders,"Defoe, Daniel",16.1,42.0,1.265349892039938
+13726,"Apology, Crito, and Phaedo of Socrates",Plato,11.8,28.0,1.3502846408924498
+1929,The School for Scandal,"Sheridan, Richard Brinsley",6.8,15.0,1.4249298846992833
+5307,The Letters of Wolfgang Amadeus Mozart — Volume 01,"Mozart, Wolfgang Amadeus",7.2,19.0,1.3357158041958042
+8581,"The Art of Money Getting; Or, Golden Rules for Making Money","Barnum, P. T. (Phineas Taylor)",9.9,23.0,1.386778686712359
+10615,"An Essay Concerning Humane Understanding, Volume 1: MDCXC, Based on the 2nd Edition, Books 1 and 2","Locke, John",15.8,38.0,1.4334187965707876
+831,Four Arthurian Romances,"Chretien, de Troyes, active 12th century",7.9,21.0,1.2610833442365563
+51322,"The Mentor: The Incas, vol. 6, num. 3, Serial No. 151, March 15, 1918","Hardy, Osgood",12.3,23.0,1.5526047439592108
+13707,Twice Told Tales,"Hawthorne, Nathaniel",10.3,24.0,1.4096889436402835
+34368,Sex-linked Inheritance in Drosophila,"Bridges, Calvin B. (Calvin Blackman)",6.0,16.0,1.346880750828119
+36020,"Slave Narratives: A Folk History of Slavery in the United States From Interviews with Former Slaves: Volume I, Alabama Narratives",United States. Work Projects Administration,5.2,17.0,1.239070256789931
+37423,How We Think,"Dewey, John",13.0,25.0,1.6052955097273873
+19860,The Arabian Nights Entertainments,Anonymous,10.7,25.0,1.3505961088777028
+2021,Nostromo: A Tale of the Seaboard,"Conrad, Joseph",7.9,18.0,1.4156518877239175
+51435,"The Business, As Usual","Sharkey, Jack",4.8,10.0,1.42021521906226
+165,McTeague: A Story of San Francisco,"Norris, Frank",5.2,14.0,1.3456633536731595
+1107,The Taming of the Shrew,"Shakespeare, William",4.8,13.0,1.3033685064935066
+217,Sons and Lovers,"Lawrence, D. H. (David Herbert)",3.7,10.0,1.2757682440403737
+20321,"A Brief Account of the Destruction of the Indies: Or, a faithful NARRATIVE OF THE Horrid and Unexampled Massacres, Butcheries, and all manner of Cruelties, that Hell and Malice could invent, committed by the Popish Spanish Party on the inhabitants of West-India, TOGETHER With the Devastations of several Kingdoms in America by Fire and Sword, for the space of Forty and Two Years, from the time of its first Discovery by them.","Casas, Bartolome de las",22.8,56.0,1.4364437866014546
+35898,The Seven Lamps of Architecture,"Ruskin, John",16.2,36.0,1.4653203965512958
+5946,"The History of Don Quixote, Volume 2, Complete","Cervantes Saavedra, Miguel de",16.5,43.0,1.3157594268261354
+17489,Les misérables Tome I: Fantine,"Hugo, Victor",6.8,15.0,1.401798061110455
+22542,Jesus the Christ: A Study of the Messiah and His Mission According to Holy; Scriptures Both Ancient and Modern,"Talmage, James E. (James Edward)",9.9,23.0,1.4084713017936172
+5669,Considerations on Representative Government,"Mill, John Stuart",17.7,37.0,1.5787057266501408
+2895,Following the Equator: A Journey Around the World,"Twain, Mark",8.7,20.0,1.39611466767589
+1074,The Sea-Wolf,"London, Jack",5.6,15.0,1.3121577352774096
+1156,Babbitt,"Lewis, Sinclair",7.2,16.0,1.3787338815708885
+18247,The Last Man,"Shelley, Mary Wollstonecraft",10.7,25.0,1.4299252384635215
+27805,The Wind in the Willows,"Grahame, Kenneth",7.2,19.0,1.3186382006377573
+51328,The Hand Phrenologically Considered: Being a Glimpse at the Relation of the Mind with the Organisation of the Body,Anonymous,14.6,29.0,1.569099791651699
+37841,"Human, All-Too-Human: A Book For Free Spirits; Part II","Nietzsche, Friedrich Wilhelm",10.3,21.0,1.4880835863547062
+41445,"Frankenstein; Or, The Modern Prometheus","Shelley, Mary Wollstonecraft",9.9,23.0,1.4244019336445894
+40196,The Oxford Book of American Essays,Unknown,11.9,25.0,1.452317223376289
+4361,Memoirs of General William T. Sherman — Complete,"Sherman, William T. (William Tecumseh)",11.1,26.0,1.4407727188730473
+10148,The Merry Adventures of Robin Hood,"Pyle, Howard",7.5,23.0,1.2157771118490321
+51410,Dr. Elsie Inglis,"Balfour, Lady Frances",7.6,17.0,1.3542101876144745
+114,The Tenniel Illustrations for Carroll's Alice in Wonderland,"Tenniel, John",10.3,15.0,1.7012797074954296
+30107,"Principles Of Political Economy: Abridged with Critical, Bibliographical, and Explanatory Notes, and a Sketch of the History of Political Economy","Mill, John Stuart",12.3,26.0,1.5038274147370536
+51294,"The Mysteries of London, v. 2/4","Reynolds, George W. M. (George William MacArthur)",9.9,20.0,1.452523641088573
+11505,All Things Considered,"Chesterton, G. K. (Gilbert Keith)",9.1,21.0,1.437618632415574
+51355,The Iliads of Homer: Translated according to the Greek,Homer,11.4,33.0,1.239907192575406
+16816,Le roman de la rose - Tome I,"Guillaume, de Lorris, active 1230",7.9,21.0,1.3485179968866816
+2243,The Merchant of Venice,"Shakespeare, William",8.3,22.0,1.2702750430444572
+28500,All About Coffee,"Ukers, William H. (William Harrison)",7.9,18.0,1.4378732681623179
+14323,Là-bas,"Huysmans, J.-K. (Joris-Karl)",7.6,17.0,1.432169197638999
+51460,A Husband for My Wife,"Stuart, William W.",4.0,11.0,1.2995279456193354
+1292,The Way of the World,"Congreve, William",4.8,13.0,1.3136014317296556
+51302,English Coins and Tokens: With A Chapter on Greek and Roman Coins,"Jewitt, Llewellynn Frederick William",8.4,16.0,1.4927692307692306
+4397,The Forsyte Saga - Complete,"Galsworthy, John",5.6,15.0,1.34503634177363
+51275,The Sleeping Beauty and other fairy tales,"Perrault, Charles",7.9,21.0,1.3266077528590523
+11438,The Willows,"Blackwood, Algernon",8.7,20.0,1.384856076486528
+51314,In Bad Company and other stories,"Boldrewood, Rolf",7.9,18.0,1.4318604131413428
+51356,The Birth of Tragedy: or Hellenism and Pessimism,"Nietzsche, Friedrich Wilhelm",18.1,38.0,1.5624775583482946
+901,The Jew of Malta,"Marlowe, Christopher",4.8,13.0,1.3426898770984375
+10002,The House on the Borderland,"Hodgson, William Hope",6.4,17.0,1.3443608579509743
+3790,Major Barbara,"Shaw, Bernard",5.2,11.0,1.363318509431069
+391,The Song of Roland,Unknown,7.9,21.0,1.2511415242979393
+2587,Life Is a Dream,"Calderon de la Barca, Pedro",8.7,23.0,1.3230041293874744
+4763,The Game of Logic,"Carroll, Lewis",4.8,13.0,1.2828498056635202
+54,The Marvelous Land of Oz,"Baum, L. Frank (Lyman Frank)",6.0,16.0,1.3442702817199745
+223,The Wisdom of Father Brown,"Chesterton, G. K. (Gilbert Keith)",8.3,19.0,1.3609045226130654
+51383,Cawnpore,"Trevelyan, George Otto",12.6,27.0,1.460163832358722
+41481,Astounding Stories of Super-Science January 1930,Unknown,5.6,12.0,1.3718774655167723
+51101,Nice Girl With 5 Husbands,"Leiber, Fritz",5.2,11.0,1.387003197807218
+15353,A First Spanish Reader,"Roessler, Erwin W. (Erwin William)",7.2,10.0,1.5967675796081608
+28289,"The Essays of ""George Eliot"": Complete","Eliot, George",14.6,32.0,1.4910821269886771
+36077,"De Nederlandsche Geslachtsnamen in Oorsprong, Geschiedenis en Beteekenis","Winkler, Johan",9.9,20.0,1.5364536250711271
+4357,American Fairy Tales,"Baum, L. Frank (Lyman Frank)",6.4,17.0,1.316910308403282
+46333,The Social Contract & Discourses,"Rousseau, Jean-Jacques",14.6,32.0,1.4817116715922432
+12228,Home Geography for Primary Grades,"Long, C. C.",4.0,11.0,1.2698879390018485
+29376,Bahnwärter Thiel,"Hauptmann, Gerhart",7.6,14.0,1.4780923154005137
+1636,Phaedrus,Plato,12.2,29.0,1.4036006503723906
+51299,Ibrahim Pasha: Grand Vizir of Suleiman the Magnificent,"Jenkins, Hester Donaldson",9.9,20.0,1.4760414951424337
+1450,Pollyanna,"Porter, Eleanor H. (Eleanor Hodgman)",4.4,12.0,1.306202413446344
+21200,"The Letters of Cicero, Volume 1: The Whole Extant Correspodence in Chronological Order","Cicero, Marcus Tullius",9.5,22.0,1.3959737072846357
+2775,The Good Soldier,"Ford, Ford Madox",7.9,18.0,1.35234630629672
+5657,The Practice of the Presence of God,"Lawrence, of the Resurrection, Brother",7.6,17.0,1.3525322200036305
+700,The Old Curiosity Shop,"Dickens, Charles",8.3,22.0,1.3368298476226634
+3328,Man and Superman: A Comedy and a Philosophy,"Shaw, Bernard",6.8,15.0,1.3879771963758525
+51449,Moral Equivalent,"Neville, Kris",4.4,9.0,1.4073904512753435
+16157,Ibong Adarna: Corrido at Buhay na Pinagdaanan nang tatlong Principeng Magcacapatid na Anac nang Haring Fernando at nang Reina Valeriana sa Cahariang Berbania,Anonymous,9.1,15.0,1.6468384514353618
+14155,Madame Bovary,"Flaubert, Gustave",7.6,17.0,1.4462677315318067
+46976,"The Anabasis of Alexander: or, The History of the Wars and Conquests of Alexander the Great","Nicomedia, Arrian of",8.7,20.0,1.391668237765628
+708,The Princess and the Goblin,"MacDonald, George",6.0,16.0,1.2674294910796648
+3160,The Odyssey,Homer,9.1,24.0,1.3351931436678737
+51428,That Which Hath Wings,"Dehan, Richard",7.2,16.0,1.4150314874186871
+1280,Spoon River Anthology,"Masters, Edgar Lee",8.3,22.0,1.2996182471448736
+33525,Stories from Tagore,"Tagore, Rabindranath",6.8,15.0,1.38603524878398
+8795,"The Divine Comedy by Dante, Illustrated, Purgatory, Complete",Dante Alighieri,9.1,24.0,1.268915372840586
+51403,"Cicero: Letters to Atticus, Volume III (of 3)","Cicero, Marcus Tullius",7.2,13.0,1.4640273958387382
+14640,"McGuffey's First Eclectic Reader, Revised Edition","McGuffey, William Holmes",1.7,11.0,1.1392314802588142
+18450,Hawaiian Folk Tales: A Collection of Native Legends,Unknown,9.9,23.0,1.3544900361557217
+1937,The Second Jungle Book,"Kipling, Rudyard",6.8,18.0,1.2627679271928447
+3070,The Hound of the Baskervilles,"Doyle, Arthur Conan",5.6,15.0,1.3194232328693067
+674,Plutarch: Lives of the noble Grecians and Romans,Plutarch,17.7,43.0,1.4313585762948113
+18155,The Story of the Three Little Pigs,"Brooke, L. Leslie (Leonard Leslie)",5.6,18.0,1.2109720885466795
+445,The Crowd: A Study of the Popular Mind,"Le Bon, Gustave",13.0,25.0,1.5734882281177733
+51256,The Cool War,"Fetler, Andrew",4.4,9.0,1.4390309555854643
+16452,The Iliad of Homer: Translated into English Blank Verse by William Cowper,Homer,8.7,23.0,1.3280019769887703
+1653,The Imitation of Christ,"Thomas, a Kempis",8.7,23.0,1.3293966810198847
+18442,Fifty Famous Stories Retold,"Baldwin, James",4.0,14.0,1.2103967295363747
+19481,"""Everyman,"" with other interludes, including eight miracle plays",Unknown,6.4,17.0,1.2602062946310502
+51317,The Fight Against Lynching: Anti-Lynching Work of the National Association for the Advancement of Colored People for the Year Nineteen Eighteen,Anonymous,9.1,18.0,1.5249056603773585
+12655,The Boy Mechanic: Volume 1: 700 Things for Boys to Do,Popular Mechanics Company,6.4,17.0,1.2977270003925379
+2038,The Lock and Key Library: Classic Mystery and Detective Stories: Modern English,Unknown,5.6,15.0,1.3342967213900923
+51343,"Motor Matt's Reverse: or, Caught in a Losing Cause","Matthews, Stanley R.",5.2,14.0,1.3358193277310926
+36034,"White Nights and Other Stories: The Novels of Fyodor Dostoevsky, Volume X","Dostoyevsky, Fyodor",7.6,17.0,1.3537283053925089
+5219,The Satyricon — Volume 02: Dinner of Trimalchio,Petronius Arbiter,8.3,22.0,1.3261801904960184
+51433,Hunt the Hunter,"Neville, Kris",2.9,8.0,1.322465604634323
+31100,The Complete Project Gutenberg Works of Jane Austen: A Linked Index of all PG Editions of Jane Austen,"Austen, Jane",8.7,20.0,1.3887767799351711
+38594,Poems,"Rilke, Rainer Maria",11.8,28.0,1.380175953079179
+51273,Advance Agent,"Anvil, Christopher",4.4,12.0,1.349634443541836
+15000,The Life of Reason: The Phases of Human Progress,"Santayana, George",13.0,25.0,1.616124429043944
+2488,Twenty Thousand Leagues Under the Seas: An Underwater Tour of the World,"Verne, Jules",7.2,16.0,1.4389021050593345
+1094,Tamburlaine the Great — Part 1,"Marlowe, Christopher",6.0,16.0,1.3459842519685041
+28696,Symbolic Logic,"Carroll, Lewis",3.6,13.0,1.235897435897436
+4070,The Master Builder,"Ibsen, Henrik",3.3,9.0,1.3007418242607878
+51346,Poem Outlines,"Lanier, Sidney",7.9,21.0,1.2958819241982509
+1227,The Expression of the Emotions in Man and Animals,"Darwin, Charles",11.5,24.0,1.4755096421261322
+15492,A Doll's House,"Ibsen, Henrik",3.7,10.0,1.2738022426095819
+1051,Sartor Resartus: The Life and Opinions of Herr Teufelsdröckh,"Carlyle, Thomas",14.2,31.0,1.5030529781502544
+11000,An Old Babylonian Version of the Gilgamesh Epic,"Clay, Albert Tobias",8.3,19.0,1.4458161939813814
+17976,Autobiography of Andrew Carnegie,"Carnegie, Andrew",7.6,17.0,1.402751030460586
+25063,The Beggar's Opera; to Which is Prefixed the Musick to Each Song,"Gay, John",5.2,14.0,1.3041532611874818
+30325,"The Elements of Drawing, in Three Letters to Beginners","Ruskin, John",15.0,36.0,1.3726901528819675
+1298,The Virginian: A Horseman of the Plains,"Wister, Owen",4.8,13.0,1.307985429008956
+7524,The Germany and the Agricola of Tacitus,"Tacitus, Cornelius",11.5,24.0,1.4718133185759086
+3755,Common Sense,"Paine, Thomas",13.8,30.0,1.4512678653757491
+3361,"Letters to His Son, Complete: On the Fine Art of Becoming a Man of the World and a Gentleman","Chesterfield, Philip Dormer Stanhope, Earl of",11.8,28.0,1.399235728736943
+51255,Chain Reaction,"Ellanby, Boyd",3.7,10.0,1.3433234421364986
+51448,The Border and the Buffalo: An Untold Story of the Southwest Plains,"Cook, John R.",7.2,19.0,1.2967016491754124
+9830,The Beautiful and Damned,"Fitzgerald, F. Scott (Francis Scott)",6.8,15.0,1.4327379410812562
+4078,The Picture of Dorian Gray,"Wilde, Oscar",4.8,13.0,1.3278032078511792
+43855,"Franklin's Way to Wealth: or, 'Poor Richard Improved'","Franklin, Benjamin",9.1,24.0,1.3386155129274395
+7256,The Gift of the Magi,"Henry, O.",4.4,12.0,1.3039747939893358
+16527,1001 zadacha dlia umstvennogo scheta,"Rachinskii, Sergei Aleksandrovich",-12.5,8.0,3.329633740288568e-05
+51374,The Golden Gems of Life: Gathered Jewels for the Home Circle,"Ferguson, S. C.",9.5,22.0,1.4470988986033837
+51445,Sordman the Protector,"Purdom, Tom",2.9,8.0,1.3021779947427714
+351,Of Human Bondage,"Maugham, W. Somerset (William Somerset)",5.6,15.0,1.315423040899157
+11417,French Mediaeval Romances from the Lays of Marie de France,"Marie, Queen of Rumania",7.2,19.0,1.2571777045981216
+12341,Against the Grain,"Huysmans, J.-K. (Joris-Karl)",13.0,28.0,1.5385959899833617
+16376,Browning's Shorter Poems,"Browning, Robert",6.0,16.0,1.2998474679682734
+32522,Mr. Spaceship,"Dick, Philip K.",2.9,8.0,1.3400302972921794
+51274,Ambition,"Bade, William L.",5.2,11.0,1.3692357512953368
+1965,Captain Blood,"Sabatini, Rafael",6.8,15.0,1.3833188984728506
+34815,Jane's All the World's Aircraft. 1913,Unknown,2.9,8.0,1.2969423750051072
+51418,"""1812"" Napoleon I in Russia","Vereshchagin, Vasilii Vasilevich",10.7,22.0,1.4515193157299908
+944,The Voyage of the Beagle,"Darwin, Charles",10.7,25.0,1.4451377306654347
+2891,Howards End,"Forster, E. M. (Edward Morgan)",5.6,12.0,1.3500662519783575
+38280,Modern Essays,Unknown,8.7,20.0,1.4222764400127295
+575,"The Essays or Counsels, Civil and Moral","Bacon, Francis",11.8,28.0,1.401420567094912
+2048,The Sketch-Book of Geoffrey Crayon,"Irving, Washington",12.6,30.0,1.44419876163402
+1717,What's Wrong with the World,"Chesterton, G. K. (Gilbert Keith)",9.5,22.0,1.4466137249026072
+22400,"Fox's Book of Martyrs: Or A History of the Lives, Sufferings, and Triumphant; Deaths of the Primitive Protestant Martyrs","Foxe, John",11.1,26.0,1.4406610273552085
+27761,"Hamlet, Prince of Denmark","Shakespeare, William",4.8,13.0,1.3099676334726456
+10662,The Night Land,"Hodgson, William Hope",14.2,40.0,1.2158117467969047
+1289,Three Ghost Stories,"Dickens, Charles",9.1,21.0,1.3702933637140415
+30255,The Skull,"Dick, Philip K.",2.9,8.0,1.3043778801843318
+51334,The Story of Elizabeth Canning Considered,"Hill, John A. (John Alexander)",12.6,30.0,1.3828296438883543
+144,The Voyage Out,"Woolf, Virginia",7.2,16.0,1.3522497353252558
+1666,The Golden Asse,Apuleius,20.8,51.0,1.364469291768531
+35977,"Letters of Abelard and Heloise: To which is prefix'd a particular account of their lives, amours, and misfortunes",Heloise,9.5,22.0,1.4026890967823133
+39863,The Montessori Method: Scientific Pedagogy as Applied to Child Education in 'The Children's Houses' with Additions and Revisions by the Author,"Montessori, Maria",11.9,25.0,1.482291657865164
+51389,"The German Classics from the Fourth to the Nineteenth Century, Vol. 1 (of 2)","Muller, F. Max (Friedrich Max)",5.6,18.0,1.229793068185236
+1245,Night and Day,"Woolf, Virginia",7.9,18.0,1.3979296028880865
+25344,The Scarlet Letter,"Hawthorne, Nathaniel",9.9,23.0,1.4421346504885644
+1685,The Mystery of the Yellow Room,"Leroux, Gaston",7.2,16.0,1.4020641356431995
+10657,"""De Bello Gallico"" and Other Commentaries","Caesar, Julius",15.4,37.0,1.4372458462404958
+34081,Myths & Legends of the Celtic Race,"Rolleston, T. W. (Thomas William)",10.3,24.0,1.3515669434850752
+35830,The 2010 CIA World Factbook,United States. Central Intelligence Agency,7.6,14.0,1.4610795083955805
+3735,The Inspector-General,"Gogol, Nikolai Vasilevich",4.4,9.0,1.374496987028904
+51393,"Toadstools, mushrooms, fungi, edible and poisonous; one thousand American fungi","Macadam, Robert K.",7.6,11.0,1.5669382122121949
+1429,"The Garden Party, and Other Stories","Mansfield, Katherine",4.0,11.0,1.300012243541532
+30123,Micromegas,Voltaire,8.3,19.0,1.3998961308750975
+9980,Platero y yo,"Jimenez, Juan Ramon",9.1,15.0,1.5691548068544874
+3330,The Analects of Confucius (from the Chinese Classics),Confucius,6.4,17.0,1.2959435024393573
+7439,English Fairy Tales,Unknown,6.0,19.0,1.2250956753116633
+432,The Ambassadors,"James, Henry",7.6,17.0,1.3568741089118077
+51461,A Pail of Air,"Leiber, Fritz",6.8,18.0,1.2576724137931035
+9603,"Hung Lou Meng, or, the Dream of the Red Chamber, a Chinese Novel, Book I","Cao, Xueqin",10.3,27.0,1.3454957765275841
+1872,The Red House Mystery,"Milne, A. A. (Alan Alexander)",4.0,11.0,1.304932913698857
+564,The Mystery of Edwin Drood,"Dickens, Charles",7.2,16.0,1.3587170261280672
+6626,Theresa Raquin,"Zola, Emile",7.6,17.0,1.4075504680275177
+95,The Prisoner of Zenda,"Hope, Anthony",5.2,14.0,1.2720509383378016
+16769,Orthodoxy,"Chesterton, G. K. (Gilbert Keith)",8.7,20.0,1.4235363439238238
+11703,The Swiss Family Robinson; or Adventures in a Desert Island,"Wyss, Johann David",8.7,23.0,1.342123173090262
+15665,New Latin Grammar,"Bennett, Charles E. (Charles Edwin)",6.4,11.0,1.460505798416162
+17157,Gulliver's Travels into Several Remote Regions of the World,"Swift, Jonathan",12.6,30.0,1.3713899176757307
+12956,"A History of Indian Philosophy, Volume 1","Dasgupta, Surendranath",12.7,24.0,1.5723707129275335
+2788,Little Men,"Alcott, Louisa May",7.9,21.0,1.2606053100380106
+9296,Clarissa Harlowe; or the history of a young lady — Volume 1,"Richardson, Samuel",9.5,22.0,1.354427443791852
+15237,The Chemistry of Food and Nutrition,"Duncan, A. W.",8.7,17.0,1.5008097779934488
+4368,Flappers and Philosophers,"Fitzgerald, F. Scott (Francis Scott)",6.4,14.0,1.3817951771360526
+51313,La chanson des vieux époux,"Loti, Pierre",12.2,29.0,1.447740524781341
+1642,Euthyphro,Plato,8.7,20.0,1.3718104759834817
+348,"Hesiod, the Homeric Hymns, and Homerica",Hesiod,8.3,22.0,1.3198389547587095
+51257,The Furious Rose,"Evans, Dean",3.3,9.0,1.320452528837622
+3742,The Writings of Thomas Paine — Volume 2 (1779-1792): The Rights of Man,"Paine, Thomas",12.3,26.0,1.4755443526761771
+42988,Nursing as Caring: A Model for Transforming Practice,"Boykin, Anne",10.7,19.0,1.592693216334796
+220,The Secret Sharer,"Conrad, Joseph",5.6,15.0,1.3176200266053937
+2449,The Common Law,"Holmes, Oliver Wendell",7.6,20.0,1.3445183479288505
+6373,"The Luck of Roaring Camp and Other Tales: With Condensed Novels, Spanish and American Legends, and Earlier Papers","Harte, Bret",7.2,16.0,1.4218796899416708
+1017,The Soul of Man under Socialism,"Wilde, Oscar",8.7,17.0,1.4606003752345216
+1301,The French Revolution: A History,"Carlyle, Thomas",10.3,21.0,1.4972926690585524
+24,O Pioneers!,"Cather, Willa",5.2,14.0,1.2968052674303236
+3011,The Lady of the Lake,"Scott, Walter",7.2,19.0,1.3098055467006695
+754,The Story of Mankind,"Van Loon, Hendrik Willem",9.1,21.0,1.444448314293675
+3021,A Boy's Will,"Frost, Robert",9.1,27.0,1.2454418685724247
+6099,Les Fleurs du Mal,"Baudelaire, Charles",10.7,25.0,1.3792533635004647
+13610,"Studies in the Psychology of Sex, Volume 1: The Evolution of Modesty; The Phenomena of Sexual Periodicity; Auto-Erotism","Ellis, Havelock",13.0,25.0,1.552228445215745
+17405,The Art of War,"Sunzi, active 6th century B.C.",8.7,20.0,1.3782278712509144
+3189,Sketches New and Old,"Twain, Mark",9.1,21.0,1.3775389905440256
+39064,Hegel's Philosophy of Mind,"Hegel, Georg Wilhelm Friedrich",13.4,26.0,1.5747917402938354
+5616,The Madman: His Parables and Poems,"Gibran, Kahlil",6.4,17.0,1.2527509926262053
+39571,Nicolo Paganini: His Life and Work,"Stratton, Stephen S. (Stephen Samuel)",9.5,19.0,1.4998981324278438
+9070,The Imaginary Invalid,Moliere,4.8,13.0,1.3273559011893872
+3796,Rilla of Ingleside,"Montgomery, L. M. (Lucy Maud)",5.6,15.0,1.3208904971071422
+14407,The Tale of Benjamin Bunny,"Potter, Beatrix",6.4,14.0,1.3628571428571428
+25290,Line and Form (1900),"Crane, Walter",14.2,31.0,1.5219297284264515
+675,American Notes,"Dickens, Charles",12.2,29.0,1.407890865449759
+1750,Laws,Plato,13.0,31.0,1.4067344808942426
+41907,Demian: Die Geschichte von Emil Sinclairs Jugend,"Hesse, Hermann",6.8,15.0,1.3776735419931387
+11012,The Autobiography of an Ex-Colored Man,"Johnson, James Weldon",9.9,23.0,1.369874913134121
+10031,The Complete Poetical Works of Edgar Allan Poe: Including Essays on Poetry,"Poe, Edgar Allan",9.5,22.0,1.4182645450024862
+1026,The Diary of a Nobody,"Grossmith, Weedon",5.2,14.0,1.3209372764130694
+24950,Bradford's History of 'Plimoth Plantation': From the Original Manuscript. With a Report of the Proceedings Incident to the Return of the Manuscript to Massachusetts,"Bradford, William",9.1,24.0,1.343373836930029
+10607,The Real Mother Goose,Unknown,6.0,19.0,1.2214887903578342
+22282,Uncle Remus and Brer Rabbit,"Harris, Joel Chandler",7.2,22.0,1.1650202780996524
+246,The Rubaiyat of Omar Khayyam,Omar Khayyam,10.7,25.0,1.3741976783885286
+40074,A Dictionary of Cebuano Visayan,"Wolff, John U.",3.3,9.0,1.2934805921605312
+51282,Lords and Lovers: and Other Dramas,"Dargan, Olive Tilford",2.5,10.0,1.2401304923492718
+42108,"The Slang Dictionary: Etymological, Historical and Andecdotal","Hotten, John Camden",7.2,13.0,1.4741512517407367
+537,Tales of Terror and Mystery,"Doyle, Arthur Conan",7.9,18.0,1.358508655126498
+1056,Martin Eden,"London, Jack",5.6,15.0,1.3439002068215065
+811,The Tragical History of Doctor Faustus: From the Quarto of 1616,"Marlowe, Christopher",4.4,12.0,1.2770821186706731
+128,The Arabian Nights Entertainments,"Lang, Andrew",9.1,24.0,1.3049540264907784
+16726,Four Weird Tales,"Blackwood, Algernon",7.6,17.0,1.4224919962248088
+25929,Daemonologie.,"James I, King of England",17.7,43.0,1.3993707158107653
+51442,A Beginner's Psychology,"Titchener, Edward Bradford",10.7,22.0,1.4905482978926288
+17851,"The History of Mary Prince, a West Indian Slave","Prince, Mary",7.9,21.0,1.3332624867162592
+2153,Mary Barton,"Gaskell, Elizabeth Cleghorn",7.2,19.0,1.3003797168930442
+1376,"The Little White Bird; Or, Adventures in Kensington Gardens","Barrie, J. M. (James Matthew)",7.9,21.0,1.2886922276040016
+51451,Capture and Escape: A Narrative of Army and Prison Life,"Kellogg, John Azor",7.9,18.0,1.3983551114527288
+5683,The Critique of Practical Reason,"Kant, Immanuel",20.4,47.0,1.544919249514223
+1745,The Poetical Works of John Milton,"Milton, John",16.1,42.0,1.2894788715042504
+18338,The Complete Poems of Paul Laurence Dunbar,"Dunbar, Paul Laurence",7.5,23.0,1.1731839646337787
+36098,The Flowers of Evil,"Baudelaire, Charles",10.3,24.0,1.377448109002929
+34607,Woodcraft and Camping,"Sears, George Washington",7.9,21.0,1.3101915552031917
+5322,Woyzeck,"Buchner, Georg",2.9,8.0,1.3086880559085134
+51412,Hamewith,"Murray, Charles Theodore",9.1,24.0,1.2787889801555572
+2407,Die Leiden des jungen Werther — Band 1,"Goethe, Johann Wolfgang von",9.1,21.0,1.4058833619210978
+51291,"Narrative and Critical History of America, Vol. IV (of 8): French Explorations and Settlements in North America and Those of the Portuguese, Dutch, and Swedes 1500-1700",Various,7.9,18.0,1.424268659721523
+34325,The Zen Experience,"Hoover, Thomas",9.1,18.0,1.4915989390824553
+51434,An Elephant for the Prinkip,"Wesley, Joseph",4.8,13.0,1.3148310549393862
+26558,Pennsylvania Dutch Cooking,Unknown,2.9,11.0,1.2208648971070684
+41562,The Hanging Stranger,"Dick, Philip K.",2.5,7.0,1.3356392126887062
+646,The Coral Island: A Tale of the Pacific Ocean,"Ballantyne, R. M. (Robert Michael)",9.1,24.0,1.3224583936324168
+43936,The Wonderful Wizard of Oz,"Baum, L. Frank (Lyman Frank)",6.8,18.0,1.2504486490539628
+1059,The World Set Free,"Wells, H. G. (Herbert George)",10.3,21.0,1.4598488463373713
+14672,The Religion of the Ancient Celts,"MacCulloch, J. A. (John Arnott)",7.2,16.0,1.3887849253754143
+40745,Short Stories,"Dostoyevsky, Fyodor",6.4,14.0,1.3622063101364958
+4274,Wives and Daughters,"Gaskell, Elizabeth Cleghorn",6.8,18.0,1.3237029637029638
+5428,A Defence of Poetry and Other Essays,"Shelley, Percy Bysshe",15.4,31.0,1.5523369393971223
+8387,Hunger,"Hamsun, Knut",6.0,16.0,1.304644255434049
+81,The Return of Tarzan,"Burroughs, Edgar Rice",8.3,19.0,1.354369323915237
+1459,Prufrock and Other Observations,"Eliot, T. S. (Thomas Stearns)",7.9,21.0,1.3189492943021432
+470,Heretics,"Chesterton, G. K. (Gilbert Keith)",8.7,20.0,1.4408097954640322
+10135,"The Great English Short-Story Writers, Volume 1",Unknown,9.1,21.0,1.3652699633059584
+16269,Thought-Forms,"Leadbeater, C. W. (Charles Webster)",13.8,30.0,1.485927262368246
+41537,The Divine Comedy of Dante Alighieri: The Inferno,Dante Alighieri,9.5,22.0,1.3507618554029541
+14726,The Elder Eddas of Saemund Sigfusson; and the Younger Eddas of Snorre Sturleson,Snorri Sturluson,6.4,17.0,1.2898775818986268
+28698,The Crystal Crypt,"Dick, Philip K.",3.3,9.0,1.3347832015271337
+6456,Public Opinion,"Lippmann, Walter",10.3,21.0,1.5214040816326533
+6686,The Gardener,"Tagore, Rabindranath",4.0,14.0,1.1960560160045728
+689,The Kreutzer Sonata and Other Stories,"Tolstoy, Leo, graf",7.6,17.0,1.364538364150737
+1190,The Jolly Corner,"James, Henry",11.1,26.0,1.382483401610397
+23666,"Mission Furniture: How to Make It, Part 3","Windsor, H. H. (Henry Haven)",4.0,14.0,1.1685524895945738
+2526,The Yoga Sutras of Patanjali: The Book of the Spiritual Man,Patanjali,9.9,23.0,1.4487457090044888
+456,"The Door in the Wall, and Other Stories","Wells, H. G. (Herbert George)",6.4,17.0,1.3304747746910712
+14033,"Plutarch's Lives, Volume I",Plutarch,14.6,35.0,1.4259447319597696
+17989,"Le comte de Monte-Cristo, Tome I","Dumas, Alexandre",8.7,20.0,1.3895597887775748
+769,The Book of Tea,"Okakura, Kakuzo",9.5,19.0,1.4941421895861149
+652,"Rasselas, Prince of Abyssinia","Johnson, Samuel",11.9,25.0,1.4582545492850183
+830,The Argonautica,"Apollonius, Rhodius",11.5,30.0,1.2658736537534159
+1012,La Divina Commedia di Dante,Dante Alighieri,12.6,27.0,1.4859565848967817
+29854,The Works of Aphra Behn: Volume V,"Behn, Aphra",15.0,39.0,1.3330330313463603
+1103,King Richard III,"Shakespeare, William",5.2,14.0,1.2986084592731628
+2344,The Adventure of the Cardboard Box,"Doyle, Arthur Conan",6.4,17.0,1.3069891228882202
+15464,Foods That Will Win The War And How To Cook Them (1918),"Goudiss, C. Houston (Charles Houston)",6.4,17.0,1.3460641399416908
+3200,The Entire Project Gutenberg Works of Mark Twain,"Twain, Mark",9.5,22.0,1.4091809463112774
+51319,Woodcraft Boys at Sunset Island,"Roy, Lillian Elizabeth",5.6,15.0,1.3371569616221668
+222,The Moon and Sixpence,"Maugham, W. Somerset (William Somerset)",5.2,14.0,1.3227370948379353
+3201,Moby Word Lists,"Ward, Grady",6.8,12.0,1.518435754189944
+994,Riders to the Sea,"Synge, J. M. (John Millington)",4.4,15.0,1.226994601079784
+33098,"Ancient and Modern Ships, Part 1: Wooden Sailing Ships","Holmes, George Charles Vincent, Sir",8.7,20.0,1.3905305045924623
+41085,The New Life (La Vita Nuova),Dante Alighieri,11.1,29.0,1.3231177352071604
+1121,As You Like It,"Shakespeare, William",5.2,14.0,1.2840452591877904
+24811,Viking Tales,"Hall, Jennie",3.3,12.0,1.224309616888194
+227,Aeneidos,Virgil,15.4,19.0,2.0245905753906004
+51338,L'autre monde ou Histoire comique des Etats et Empires de la Lune,"Bergerac, Savinien de Cyrano de",15.8,38.0,1.3759417191964578
+17147,"Theodicy: Essays on the Goodness of God, the Freedom of Man and the Origin of Evil","Leibniz, Gottfried Wilhelm, Freiherr von",13.0,28.0,1.458250383455863
+23673,The St. Gregory Hymnal and Catholic Choir Book,Unknown,5.6,12.0,1.4271890698077256
+15147,Beeton's Book of Needlework,"Beeton, Mrs. (Isabella Mary)",4.8,16.0,1.245370823944352
+8486,Ghost Stories of an Antiquary,"James, M. R. (Montague Rhodes)",7.9,21.0,1.3423554264589386
+968,Martin Chuzzlewit,"Dickens, Charles",7.2,19.0,1.3372818388346919
+51437,Boy of My Heart,"Leighton, Marie Connor",6.8,18.0,1.2678488158056203
+51263,The Scarecrow of Oz,"Baum, L. Frank (Lyman Frank)",6.8,18.0,1.2934502923976607
+51426,Henry D. Thoreau,"Sanborn, F. B.",9.5,22.0,1.369343490990663
+301,The Ballad of Reading Gaol,"Wilde, Oscar",11.1,32.0,1.1743233357717628
+51459,The Analysis of Beauty: Written with a view of fixing the fluctuating ideas of taste,"Hogarth, William",16.1,39.0,1.416610969137016
+1028,The Professor,"Bronte, Charlotte",11.1,26.0,1.4090018969297
+22373,Russian Fairy Tales: A Choice Collection of Muscovite Folk-lore,Unknown,6.0,16.0,1.3089858351743275
+3528,"Beethoven, the Man and the Artist, as Revealed in His Own Words","Beethoven, Ludwig van",7.9,18.0,1.4125521425862722
+32706,Triplanetary,"Smith, E. E. (Edward Elmer)",8.4,16.0,1.4626261072158606
+2145,Ben-Hur; a tale of the Christ,"Wallace, Lew",7.9,18.0,1.3515822592412452
+51443,"Claudian, volume 1 (of 2): With an English translation by Maurice Platnauer","Claudianus, Claudius",10.7,19.0,1.587017357609215
+51468,The Love of Monsieur,"Gibbs, George",5.2,14.0,1.3405705629891442
+51469,Self-Control Its Kingship and Majesty,"Jordan, William George",9.1,21.0,1.4384853686105412
+51494,Beach Scene,"King, Marshall",4.0,11.0,1.3205142857142858
+51478,Dumbwaiter,"Stamers, James",5.6,12.0,1.4324821002386636
+51493,Kreativity For Kats,"Leiber, Fritz",8.7,17.0,1.4673076923076922
+51475,East In The Morning,"Fisher, David E.",6.0,13.0,1.4101792279411764
+51473,"The Donkey, the Elephant, and the Goat: At a Public Meeting","Preston, Jack",8.3,19.0,1.3532129357412852
+51477,A Garden Diary: September 1899—September 1900,"Lawless, Emily",10.3,24.0,1.4491216343241493
+51481,Flying Machines Today,"Ennis, William Duane",10.3,21.0,1.5424387598300642
+51482,Perfect Answer,"Stecher, L.J.",5.2,11.0,1.404520795660036
+51483,The Reluctant Heroes,"Robinson, Frank M.",4.0,11.0,1.2765080283523795
+51484,"Film Truth; September, 1920",Anonymous,7.6,17.0,1.4291052114060965
+51487,Othmar,Ouida,7.9,21.0,1.3499764622192467
+51491,Church History (Volumes 1-3),"Kurtz, J. H. (Johann Heinrich)",8.7,17.0,1.4823435949720478
+51495,The Uncensored Letters of a Canteen Girl,"Morse, Katharine Duncan",7.6,17.0,1.3622895199798943
