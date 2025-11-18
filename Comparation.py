@@ -55,7 +55,7 @@ def compare_books_with_common_words(common_words, books_dir):
             percentage = (common_count / total_words) * 100
 
             # ASL (Average Sentence Length - Média de Palavras por Frase)
-            ASL = textstat.avg_sentence_length(raw_text)
+            ASL = textstat.words_per_sentence(raw_text)
             
             # ASW (Average Syllables per Word - Média de Sílabas por Palavra)
             ASW = textstat.avg_syllables_per_word(raw_text)
