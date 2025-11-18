@@ -10,7 +10,7 @@ TIMEOUT = 30
 BOOKS_TO_DOWNLOAD = 30 
 
 LOCAL_CSV_PATH = "docs/classics.csv" 
-MASTER_GABARITO_PATH = "comparation/gabarito_master.csv"
+MASTER_GABARITO_PATH = "comparation/gabarito.csv"
 BOOKS_DIR = "books/random" 
 
 def pick_best_text_url(formats: Dict[str, str]) -> Optional[str]:
