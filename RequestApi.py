@@ -1,4 +1,5 @@
 import os
+import time
 import requests
 import re
 import unidecode
@@ -135,10 +136,18 @@ def main():
     books_downloaded = 0
     page = 1
 
-    while books_downloaded < BOOKS_TO_DOWNLOAD:
-        print(f"\n🔎 Procurando livros difíceis na página {page}...")
+    output_dir = "books/random"
+    os.makedirs(output_dir, exist_ok=True)
 
-        data = gutendex_search(page=page, page_size=100)
+    while books_downloaded < BOOKS_TO_DOWNLOAD:
+        print(f"\nBuscando página {page} da API (Baixados: {books_downloaded}/{BOOKS_TO_DOWNLOAD})...")
+        try:
+            data = gutendex_search_plaintext(page=page, page_size=100) 
+        except requests.RequestException as e:
+            print(f"Erro ao buscar API: {e}. Tentando novamente em 10s.")
+            time.sleep(10)
+            continue
+            
         results = data.get("results", [])
 
         if not results:
@@ -159,32 +168,34 @@ def main():
                 print(f"[WARN] Livro sem texto: {book_obj['title']}")
                 continue
 
+            # Baixa o texto do livro
             try:
                 raw_text = download_text(text_url)
-            except:
-                print(f"[ERRO] Falha ao baixar '{book_obj['title']}'")
+            except requests.RequestException as e:
+                print(f"[WARN] Falha ao baixar '{book_obj['title']}': {e}. (Pulando)")
                 continue
 
-            cleaned = strip_gutenberg_boilerplate(raw_text)
+            # Limpa o texto (remove cabeçalho/rodapé do Gutenberg)
+            cleaned_text = strip_gutenberg_boilerplate(raw_text)
+            
+            if not cleaned_text:
+                print(f"[WARN] Livro '{book_obj['title']}' resultou em texto vazio após limpeza. (Pulando)")
+                continue
 
             title = book_obj.get("title", "Unknown")
-            filename_safe = clean_title_for_filename(title)
-            filepath = f"{SAVE_DIR}/{filename_safe}.txt"
+            filename = f"{clean_title_for_filename(title)}.txt"
+            filepath = os.path.join(output_dir, filename)
 
-            try:
-                with open(filepath, "w", encoding="utf-8") as f:
-                    f.write(cleaned)
-            except Exception as e:
-                print(f"[ERRO ao salvar arquivo]: {e}")
-                continue
+            # Salva o texto em um arquivo .txt
+            with open(filepath, "w", encoding="utf-8") as f:
+                f.write(cleaned_text)
 
-            print(f"📘 Livro difícil salvo: {filepath}")
+            print(f"({books_downloaded + 1}/{BOOKS_TO_DOWNLOAD}) Livro '{title}' salvo como '{filepath}'")
             books_downloaded += 1
 
         page += 1
-
-    print(f"\n🎉 DOWNLOAD CONCLUÍDO: {books_downloaded} livros difíceis baixados!")
-
+    
+    print(f"\nDownload concluído. Total de {books_downloaded} livros baixados.")
 
 if __name__ == "__main__":
     main()
