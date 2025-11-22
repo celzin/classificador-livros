@@ -1,8 +1,8 @@
 import os
 import csv
 
-COMMON_WORDS_PATH = "commonWords/google-10000-english.txt"
-BOOKS_DIR = "books/randow"
+COMMON_WORDS_PATH = "commonWords/google-10000-english-usa-no-swears-short.txt"
+BOOKS_DIR = "books/hard_genres"
 OUTPUT_PATH = "comparation/analise.csv"
 
 def load_common_words(filepath):
