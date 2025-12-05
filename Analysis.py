@@ -14,7 +14,25 @@ OUTPUT_DIR = "analysis" # Nova pasta para não misturar
 sns.set_theme(style="whitegrid")
 plt.rcParams.update({'font.size': 12})
 
-# --- Funções de Carregamento (Iguais ao anterior) ---
+# 1. ORDEM LÓGICA (Controle a ordem das barras aqui)
+LOGICAL_ORDER = [
+    'children',       
+    'moderns_1850',   
+    'random',         
+    'olds_1850',      
+    'har_genres'      
+]
+
+# 2. NOMES VISUAIS (Altere os rótulos aqui)
+LABEL_MAP = {
+    'children':     'Infantil',
+    'moderns_1850': 'Moderno (>1900)',
+    'random':       'Aleatório',
+    'olds_1850':    'Clássico (<1900)',
+    'har_genres':   'Técnico/Complexo'
+}
+
+# --- Funções de Carregamento (Mantidas) ---
 def extract_category_from_filename(filepath):
     filename = os.path.basename(filepath)
     dirname = os.path.basename(os.path.dirname(filepath))
@@ -32,157 +50,121 @@ def load_data():
 
     print(f"📂 Lendo {len(files)} arquivos...")
     for filepath in files:
-        cat = extract_category_from_filename(filepath)
+        raw_cat = extract_category_from_filename(filepath)
+        cat_lower = raw_cat.lower()
+        
+        if "child" in cat_lower: cat_key = "children"
+        elif "old" in cat_lower: cat_key = "olds_1850"
+        elif "modern" in cat_lower: cat_key = "moderns_1850"
+        elif "har" in cat_lower: cat_key = "har_genres"
+        else: cat_key = "random"
+
         try:
             df = pd.read_csv(filepath)
-            # Normaliza colunas
             cols_map = {
                 'flesch_kincaid_grade': 'FKGL', 'FKGL_Score': 'FKGL',
                 'avg_sentence_length': 'ASL', 'nossa_metrica_sintaxe (ASL)': 'ASL',
-                'ASW_textstat': 'ASW',
-                'percentage_uncommon': 'Perc_Uncommon', 'nossa_metrica_semantica (%incomum)': 'Perc_Uncommon'
             }
             df = df.rename(columns=cols_map)
-            df['category'] = cat
+            
+            df['category_internal'] = cat_key
+            df['category_label'] = LABEL_MAP.get(cat_key, cat_key)
+            
             all_data.append(df)
         except: pass
 
     if not all_data: return None
-    final_df = pd.concat(all_data, ignore_index=True)
-    
-    # Garante % Incomum
-    if 'Perc_Uncommon' not in final_df.columns and 'percentage_common' in final_df.columns:
-        final_df['Perc_Uncommon'] = 100 - final_df['percentage_common']
-        
-    return final_df
+    return pd.concat(all_data, ignore_index=True)
 
-# --- NOVAS ANÁLISES ---
+def get_plot_order(df):
+    """Gera a ordem visual dos labels baseada na LOGICAL_ORDER"""
+    existing_keys = df['category_internal'].unique()
+    final_order = []
+    
+    for key in LOGICAL_ORDER:
+        if key in existing_keys:
+            final_order.append(LABEL_MAP.get(key, key))
+            
+    for key in existing_keys:
+        label = LABEL_MAP.get(key, key)
+        if label not in final_order:
+            final_order.append(label)
+    return final_order
 
-def plot_vocabulary_ranking(df):
-    """
-    Gráfico de Barras: Quem usa o vocabulário mais difícil?
-    Compara a média de % Palavras Incomuns por categoria.
-    """
-    plt.figure(figsize=(10, 6))
-    
-    # Agrupa por categoria e calcula média
-    ranking = df.groupby("category")["Perc_Uncommon"].mean().sort_values()
-    
-    # Gráfico de Barras Horizontal
-    barplot = sns.barplot(
-        x=ranking.values, 
-        y=ranking.index, 
-        palette="magma"
-    )
-    
-    # Adiciona o valor na ponta da barra
-    for i, v in enumerate(ranking.values):
-        barplot.text(v + 0.1, i, f"{v:.1f}%", va='center', fontweight='bold')
-
-    plt.title("Ranking de Raridade Vocabular (% de Palavras Incomuns)")
-    plt.xlabel("Porcentagem Média de Palavras Incomuns")
-    plt.ylabel("Categoria")
-    plt.tight_layout()
-    
-    plt.savefig(os.path.join(OUTPUT_DIR, "fig2_ranking_vocabulario.png"))
-    plt.close()
-    print("✅ Gráfico salvo: fig2_ranking_vocabulario.png")
-
-def plot_sentence_len_ranking(df):
-    """
-    Gráfico de Barras: Quem escreve as frases mais longas?
-    Compara a média de ASL (Palavras por Frase).
-    """
-    plt.figure(figsize=(10, 6))
-    
-    # Filtra outliers extremos para não distorcer a média
-    df_clean = df[df['ASL'] < 100]
-    ranking = df_clean.groupby("category")["ASL"].mean().sort_values()
-    
-    barplot = sns.barplot(
-        x=ranking.values, 
-        y=ranking.index, 
-        palette="viridis"
-    )
-    
-    for i, v in enumerate(ranking.values):
-        barplot.text(v + 0.5, i, f"{v:.1f}", va='center', fontweight='bold')
-
-    plt.title("Ranking de Complexidade Sintática (Tamanho da Frase)")
-    plt.xlabel("Média de Palavras por Frase (ASL)")
-    plt.ylabel("Categoria")
-    plt.tight_layout()
-    
-    plt.savefig(os.path.join(OUTPUT_DIR, "fig3_ranking_sintaxe.png"))
-    plt.close()
-    print("✅ Gráfico salvo: fig3_ranking_sintaxe.png")
-
-def plot_correlation_heatmap(df):
-    """
-    Matriz de Correlação: Como as variáveis se relacionam?
-    Isso é pura Ciência de Dados. Mostra o que influencia o quê.
-    """
-    plt.figure(figsize=(8, 6))
-    
-    # Seleciona apenas colunas numéricas relevantes
-    cols = ['FKGL', 'ASL', 'ASW', 'Perc_Uncommon']
-    # Filtra erros de leitura
-    df_clean = df[df['FKGL'] <= 30]
-    
-    corr = df_clean[cols].corr()
-    
-    sns.heatmap(
-        corr, 
-        annot=True,     # Escreve o número no quadrado
-        cmap="coolwarm", # Azul (negativo) a Vermelho (positivo)
-        fmt=".2f", 
-        vmin=-1, vmax=1
-    )
-    
-    plt.title("Matriz de Correlação das Métricas")
-    plt.tight_layout()
-    
-    plt.savefig(os.path.join(OUTPUT_DIR, "fig4_heatmap_correlacao.png"))
-    plt.close()
-    print("✅ Gráfico salvo: fig4_heatmap_correlacao.png")
-
+# --- ANÁLISE 1: Boxplot de Dificuldade (Mantida) ---
 def plot_fkgl_boxplot(df):
-    """O gráfico que você gostou (mantido)"""
     plt.figure(figsize=(10, 6))
-    try:
-        order = df.groupby("category")["FKGL"].median().sort_values().index
-    except: return
+    order = get_plot_order(df)
 
-    sns.boxplot(x="category", y="FKGL", data=df, order=order, palette="Set2")
+    sns.boxplot(
+        x="category_label", 
+        y="FKGL", 
+        data=df, 
+        order=order, 
+        palette="Set2",
+        linewidth=1.2
+    )
     
-    plt.ylim(0, 20) # Focando na faixa escolar real (0 a 20 anos)
-    plt.title("Comparação de Dificuldade Geral (FKGL) por Categoria")
-    plt.ylabel("Nível Escolar (Anos de Estudo)")
-    plt.xlabel("Categoria")
+    plt.ylim(0, 25) 
+    plt.title("Nível de Dificuldade Escolar (Flesch-Kincaid) por Categoria")
+    plt.ylabel("Anos de Estudo Necessários (FKGL)")
+    plt.xlabel("")
     plt.xticks(rotation=45)
     plt.tight_layout()
     
-    plt.savefig(os.path.join(OUTPUT_DIR, "fig1_fkgl_boxplot.png"))
+    save_path = os.path.join(OUTPUT_DIR, "fig1_dificuldade_boxplot.png")
+    plt.savefig(save_path, dpi=300)
     plt.close()
-    print("✅ Gráfico salvo: fig1_fkgl_boxplot.png")
+    print(f"✅ Gráfico 1 salvo: {save_path}")
+
+# --- ANÁLISE 2: Barplot de Sintaxe (Nova) ---
+def plot_sintaxe_barplot(df):
+    plt.figure(figsize=(10, 6))
+    order = get_plot_order(df)
+    
+    # Filtra outliers extremos para o cálculo da média não sujar o gráfico
+    df_clean = df[df['ASL'] < 100] 
+    
+    # Calcula a média por categoria para plotar as barras
+    # O Seaborn faz isso automaticamente com o parâmetro estimator=np.mean (padrão)
+    # Mas o ci=None remove a barrinha de erro (intervalo de confiança) para ficar mais limpo
+    ax = sns.barplot(
+        x="category_label", 
+        y="ASL", 
+        data=df_clean, 
+        order=order, 
+        palette="viridis", 
+        ci=None 
+    )
+    
+    # Adiciona os valores no topo das barras
+    for i in ax.containers:
+        ax.bar_label(i, fmt='%.1f', padding=3, fontweight='bold')
+    
+    plt.title("Média de Palavras por Frase (Complexidade Sintática)")
+    plt.ylabel("Média (ASL)")
+    plt.xlabel("")
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    
+    save_path = os.path.join(OUTPUT_DIR, "fig2_sintaxe_barplot.png")
+    plt.savefig(save_path, dpi=300)
+    plt.close()
+    print(f"✅ Gráfico 2 salvo: {save_path}")
 
 def main():
-    print("--- Iniciando Análise V2 ---")
+    print("--- Gerando Análise Final (Boxplot + Barplot) ---")
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     
     df = load_data()
     if df is not None:
-        # Filtra outliers gerais para análise limpa
-        df = df[df['FKGL'] <= 30] 
+        df = df[df['FKGL'] <= 40] 
+        print(f"Livros processados: {len(df)}")
         
-        print(f"Livros válidos para análise: {len(df)}")
+        plot_fkgl_boxplot(df)
+        plot_sintaxe_barplot(df)
         
-        plot_fkgl_boxplot(df)       # O Boxplot (Visualizar distribuição)
-        plot_vocabulary_ranking(df) # Barplot (Comparar Vocabulário)
-        plot_sentence_len_ranking(df) # Barplot (Comparar Sintaxe)
-        plot_correlation_heatmap(df) # Heatmap (Entender a relação matemática)
-        
-        print(f"\n🎉 Resultados salvos na pasta '{OUTPUT_DIR}'")
+        print(f"\n🎉 Tudo pronto na pasta '{OUTPUT_DIR}'")
 
 if __name__ == "__main__":
     main()
