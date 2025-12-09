@@ -7,7 +7,7 @@ from typing import Dict, Optional
 
 GUTENDEX_BASE = "https://gutendex.com/books"
 TIMEOUT = 30
-BOOKS_TO_DOWNLOAD = 30 
+BOOKS_TO_DOWNLOAD = 30
 
 LOCAL_CSV_PATH = "docs/classics.csv" 
 MASTER_GABARITO_PATH = "comparation/gabarito.csv"
@@ -80,14 +80,11 @@ def get_book_by_id(book_id: int, retries=3) -> Optional[Dict]:
                 return None
     return None
 
-def load_master_catalog():
-    os.makedirs(os.path.dirname(MASTER_GABARITO_PATH), exist_ok=True)
-    
-    if os.path.exists(MASTER_GABARITO_PATH):
-        print(f"Catálogo mestre '{MASTER_GABARITO_PATH}' já existe. Usando cache.")
-        return pd.read_csv(MASTER_GABARITO_PATH)
-
-    print(f"Lendo gabarito local de '{LOCAL_CSV_PATH}'...")
+def load_source_catalog():
+    """
+    Lê o CSV local de origem e prepara o DataFrame, mas NÃO salva ainda.
+    """
+    print(f"Lendo catálogo fonte de '{LOCAL_CSV_PATH}'...")
     try:
         df = pd.read_csv(LOCAL_CSV_PATH)
         
@@ -105,27 +102,30 @@ def load_master_catalog():
         df_cleaned = df_cleaned.dropna()
         df_cleaned['book_id'] = df_cleaned['book_id'].astype(int)
 
-        df_cleaned.to_csv(MASTER_GABARITO_PATH, index=False, encoding='utf-8')
-        print(f"Gabarito mestre salvo em '{MASTER_GABARITO_PATH}'")
         return df_cleaned
         
     except Exception as e:
-        print(f"Falha ao processar o catálogo mestre: {e}")
+        print(f"Falha ao processar o catálogo fonte: {e}")
         return None
 
 def main():
-    df_gabarito = load_master_catalog()
-    if df_gabarito is None:
+    # Carrega a lista de origem
+    df_source = load_source_catalog()
+    if df_source is None:
         return
         
-    print(f"Catálogo carregado. Iniciando downloads...")
+    print(f"Catálogo fonte carregado ({len(df_source)} registros). Iniciando processamento...")
+    
+    os.makedirs(os.path.dirname(MASTER_GABARITO_PATH), exist_ok=True)
     os.makedirs(BOOKS_DIR, exist_ok=True)
 
     books_downloaded_count = 0
+    final_gabarito_data = [] # Lista para armazenar apenas os livros processados com sucesso
     
-    for index, row in df_gabarito.iterrows():
+    for index, row in df_source.iterrows():
+        # Verifica se atingiu o limite de downloads NOVOS
         if books_downloaded_count >= BOOKS_TO_DOWNLOAD:
-            print(f"Limite de {BOOKS_TO_DOWNLOAD} livros atingido.")
+            print(f"Limite de {BOOKS_TO_DOWNLOAD} novos downloads atingido.")
             break
         
         book_id = row['book_id']
@@ -135,6 +135,7 @@ def main():
         filepath = os.path.join(BOOKS_DIR, filename)
 
         if os.path.exists(filepath):
+            final_gabarito_data.append(row)
             continue 
 
         book_obj = get_book_by_id(book_id)
@@ -160,11 +161,20 @@ def main():
             f.write(cleaned_text)
 
         print(f"({books_downloaded_count + 1}/{BOOKS_TO_DOWNLOAD}) Livro ID {book_id} salvo.")
+        
+        final_gabarito_data.append(row)
         books_downloaded_count += 1
         
         time.sleep(1) 
 
-    print(f"\nDownload concluído.")
+    if final_gabarito_data:
+        df_final_gabarito = pd.DataFrame(final_gabarito_data)
+        df_final_gabarito['book_id'] = df_final_gabarito['book_id'].astype(str) + ".txt"
+        df_final_gabarito.to_csv(MASTER_GABARITO_PATH, index=False, encoding='utf-8')
+        print(f"\nProcesso concluído.")
+        print(f"Gabarito gerado com {len(df_final_gabarito)} livros em '{MASTER_GABARITO_PATH}'.")
+    else:
+        print("\nNenhum livro foi processado ou encontrado.")
 
 if __name__ == "__main__":
     main()
