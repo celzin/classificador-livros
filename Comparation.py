@@ -4,8 +4,8 @@ import textstat
 import nltk
 
 COMMON_WORDS_PATH = "commonWords/google-10000-english.txt"
-BOOKS_DIR = "books/random"
-OUTPUT_PATH = "comparation/analise.csv"
+BOOKS_DIR = "books/books_id"
+OUTPUT_PATH = "comparation/analise_id.csv"
 
 def setup_nltk():
     """Verifica se o pacote 'punkt' do NLTK está instalado."""
